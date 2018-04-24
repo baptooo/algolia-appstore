@@ -1,0 +1,7 @@
+{
+  "baseUrl": "/api/1",
+  "port": 5000,
+  "endpoints": {
+    "apps": "/apps"
+  }
+}

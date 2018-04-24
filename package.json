@@ -1,0 +1,28 @@
+{
+  "name": "algolia-appstore",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "algoliasearch-helper": "^2.25.1",
+    "material-ui": "^1.0.0-beta.43",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "safely-set-inner-html": "^0.0.8"
+  },
+  "scripts": {
+    "api": "node ./server",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "algoliasearch": "^3.27.0",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  }
+}
