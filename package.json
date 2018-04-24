@@ -16,13 +16,16 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "yarn build && surge -p build -d brc-algolia-appstore.surge.sh",
+    "teardown": "surge teardown brc-algolia-appstore.surge.sh"
   },
   "devDependencies": {
     "algoliasearch": "^3.27.0",
     "body-parser": "^1.18.2",
     "concurrently": "^3.5.1",
     "cors": "^2.8.4",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "surge": "^0.20.1"
   }
 }
