@@ -1,6 +1,6 @@
 {
   "name": "algolia-appstore",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "algoliasearch-helper": "^2.25.1",
@@ -18,7 +18,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "yarn build && surge -p build -d brc-algolia-appstore.surge.sh",
-    "teardown": "surge teardown brc-algolia-appstore.surge.sh"
+    "teardown": "surge teardown brc-algolia-appstore.surge.sh",
+    "version": "generate-changelog && git add -A CHANGELOG.md"
   },
   "devDependencies": {
     "algoliasearch": "^3.27.0",
@@ -26,6 +27,7 @@
     "concurrently": "^3.5.1",
     "cors": "^2.8.4",
     "express": "^4.16.3",
+    "generate-changelog": "^1.7.1",
     "surge": "^0.20.1"
   }
 }
