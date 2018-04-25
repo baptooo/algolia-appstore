@@ -1,3 +1,9 @@
+#### 0.4.0 (2018-04-25)
+
+##### New Features
+
+* **Results:**  structure results view (d60ef2b5)
+
 #### 0.3.0 (2018-04-25)
 
 ##### New Features
