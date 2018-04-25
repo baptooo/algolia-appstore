@@ -10,7 +10,7 @@ import Results from "./components/Results";
 
 const styles = theme => ({
   main: {
-    width: 1000,
+    maxWidth: 1000,
     margin: '0 auto'
   },
   title: {
@@ -42,16 +42,17 @@ class App extends Component {
             <Search onChange={setQuery} />
           </Grid>
           <Grid item xs={12} sm={4}>
-            {facets.length ? (
-              <Facets
-                addOrUpdateFacet={addOrUpdateFacet}
-                removeFacet={removeFacet}
-                facets={facets}
-                refinements={refinements}
-              />
-            ) : null}
+            <Facets
+              addOrUpdateFacet={addOrUpdateFacet}
+              removeFacet={removeFacet}
+              facets={facets}
+              refinements={refinements}
+            />
           </Grid>
           <Grid item xs={12} sm={8}>
+            <Typography variant="headline">
+              {content.nbHits} results
+            </Typography>
             {content.hits.length ? <Results content={content.hits}/> : null}
           </Grid>
         </Grid>

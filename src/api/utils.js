@@ -1,0 +1,1 @@
+export const isFree = (price) => price === '0 USD';

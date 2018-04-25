@@ -15,7 +15,7 @@ const RatingFacet = ({ name, values, addOrUpdateFacet }) => {
       emptySymbol={<Icon color="disabled">star</Icon>}
       fullSymbol={<Icon color="primary">star</Icon>}
       fractions={2}
-      onChange={(rate) => console.log(rate) || addOrUpdateFacet(name, rate)}
+      onChange={(rate) => addOrUpdateFacet(name, rate)}
     />
   )
 };

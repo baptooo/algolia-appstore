@@ -17,7 +17,7 @@ const styles = theme => ({
 });
 
 const Emphasis = ({ value, classes }) => (
-  <span>{instance.transform(value.replace('<em', `<em className=${classes.emphasis}`))}</span>
+  <span>{instance.transform(value.replace(/<em/g, `<em className=${classes.emphasis}`))}</span>
 );
 
 export default withStyles(styles)(Emphasis);
