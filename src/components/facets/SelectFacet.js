@@ -1,37 +1,34 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { FormControl } from 'material-ui/Form';
-import { InputLabel } from 'material-ui/Input';
-import Chip from 'material-ui/Chip';
 import Select from 'material-ui/Select';
 import { MenuItem } from 'material-ui/Menu';
 
-const SelectFacet = ({ name, values, onChange }) => {
+const SelectFacet = ({ name, values, addOrUpdateFacet }) => {
   const currentValue = values.find(({ isRefined }) => isRefined === true);
 
-  return currentValue ? (
-    <FormControl>
-      <Chip
-        label={currentValue.name}
-        onDelete={() => onChange(name, currentValue.name)}
-      />
-    </FormControl>
-  ) : (
-    <FormControl style={{ minWidth: "100%" }}>
-      <InputLabel htmlFor={`facet-${name}`}>{name}</InputLabel>
-      <Select
-        value={currentValue ? currentValue.name : ''}
-        onChange={(evt) => onChange(name, evt.target.value)}
-        inputProps={{
-          name,
-          id: `facet-${name}`,
-        }}
-      >
-        {values.map(({ name: value }) => (
-          <MenuItem key={`facet-${name}-${value}`} value={value}>{value}</MenuItem>
-        ))}
-      </Select>
-    </FormControl>
-  );
+  return currentValue ? null : <FormControl style={{ minWidth: "100%" }}>
+    <Select
+      value={currentValue ? currentValue.name : ''}
+      displayEmpty
+      onChange={(evt) => addOrUpdateFacet(name, evt.target.value)}
+      inputProps={{
+        name,
+        id: `facet-${name}`,
+      }}
+    >
+      <MenuItem value="">Choose a {name}</MenuItem>
+      {values.map(({ name: value }) => (
+        <MenuItem key={`facet-${name}-${value}`} value={value}>{value}</MenuItem>
+      ))}
+    </Select>
+  </FormControl>
+};
+
+SelectFacet.propTypes = {
+  name: PropTypes.string.isRequired,
+  values: PropTypes.array.isRequired,
+  addOrUpdateFacet: PropTypes.func.isRequired
 };
 
 export default SelectFacet;

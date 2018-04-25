@@ -16,11 +16,13 @@ const styles = theme => ({
   }
 });
 
+const isDev = process.env.NODE_ENV === 'development';
+
 const Results = ({ content, classes }) => (
   <List>
     {content.map((entry) => (
       <ListItem key={`result-${entry.objectID}`}>
-        <Avatar className={classes.avatar} src={entry.image} imgProps={{
+        <Avatar className={classes.avatar} src={isDev ? algoliaLogo : entry.image} imgProps={{
           onError: (evt) => evt.target.setAttribute('src', algoliaLogo)
         }}/>
         <ListItemText primary={(

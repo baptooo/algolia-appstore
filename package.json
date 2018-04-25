@@ -8,6 +8,7 @@
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-rating": "^1.1.2",
     "react-scripts": "1.1.4",
     "safely-set-inner-html": "^0.0.8"
   },
@@ -15,6 +16,7 @@
     "api": "node ./server",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "lint": "eslint src",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "yarn build && surge -p build -d brc-algolia-appstore.surge.sh",

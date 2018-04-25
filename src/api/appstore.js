@@ -8,7 +8,25 @@ const helper = algoliasearchHelper(client, 'appstore', {
 
 export const setQuery = (term) => helper.setQuery(term).search();
 
-export const toggleFacet = (name, value) => helper.toggleFacetRefinement(name, value).search();
+export const addOrUpdateFacet = (name, value) => {
+  if (helper.hasRefinements(name)) {
+    const [refinement] = helper.getRefinements(name);
+
+    if (refinement.value !== value.toString()) {
+      helper.removeFacetRefinement(name, refinement.value);
+    }
+  }
+
+  helper.addFacetRefinement(name, value).search();
+};
+
+export const removeFacet = (name, value) => {
+  helper.removeFacetRefinement(name, value).search();
+};
+
+export const getRefinements = (name) => {
+  return helper.getRefinements(name);
+};
 
 export default (updateContent) => {
   // Subscribe to "result" event to update application store

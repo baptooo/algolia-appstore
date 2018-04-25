@@ -9,6 +9,7 @@ cache:
   - build
 
 script:
+- yarn lint
 - yarn build
 
 before_deploy: ls -al build

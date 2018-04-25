@@ -3,7 +3,7 @@ import Grid from 'material-ui/Grid';
 import Typography from 'material-ui/Typography';
 import { withStyles } from 'material-ui/styles';
 
-import { setQuery, toggleFacet } from './api/appstore';
+import { setQuery, addOrUpdateFacet, removeFacet } from './api/appstore';
 import Search from './components/Search';
 import Facets from './components/Facets';
 import Results from "./components/Results";
@@ -27,6 +27,7 @@ class App extends Component {
       name,
       values: content.getFacetValues(name)
     }));
+    const refinements = content.getRefinements();
 
     return (
       <main className={classes.main}>
@@ -41,7 +42,14 @@ class App extends Component {
             <Search onChange={setQuery} />
           </Grid>
           <Grid item xs={12} sm={4}>
-            {content.facets.length ? <Facets toggleFacet={toggleFacet} facets={facets}/> : null}
+            {facets.length ? (
+              <Facets
+                addOrUpdateFacet={addOrUpdateFacet}
+                removeFacet={removeFacet}
+                facets={facets}
+                refinements={refinements}
+              />
+            ) : null}
           </Grid>
           <Grid item xs={12} sm={8}>
             {content.hits.length ? <Results content={content.hits}/> : null}

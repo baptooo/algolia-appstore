@@ -9,8 +9,9 @@ const instance = new SafelySetInnerHTML({
 
 const styles = theme => ({
   emphasis: {
-    backgroundColor: '#00AEFF',
-    color: 'white',
+    borderWidth: '0 0 2px 0',
+    borderColor: '#00AEFF',
+    borderStyle: 'solid',
     padding: '2px 4px'
   }
 });
