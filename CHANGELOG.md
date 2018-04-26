@@ -1,3 +1,14 @@
+#### 0.7.0 (2018-04-26)
+
+##### New Features
+
+* **build:**  add react-snap for performance (52b62fce)
+* **Result:**  change wording for link action (46d8718d)
+
+##### Bug Fixes
+
+* **travis:**  add chrome headless (53499f25)
+
 #### 0.6.2 (2018-04-26)
 
 ##### Bug Fixes
