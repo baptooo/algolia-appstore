@@ -1,3 +1,9 @@
+#### 0.6.0 (2018-04-26)
+
+##### New Features
+
+* **version:**  add app version on header (f65be8ef)
+
 #### 0.5.0 (2018-04-26)
 
 ##### New Features
