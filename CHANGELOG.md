@@ -1,3 +1,9 @@
+#### 0.6.2 (2018-04-26)
+
+##### Bug Fixes
+
+* **snapshots:**  freeze version for test environment (7f489be4)
+
 #### 0.6.1 (2018-04-26)
 
 #### 0.6.0 (2018-04-26)
