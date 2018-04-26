@@ -35,7 +35,9 @@ const apiWrapper = (action) => async (req, res) => {
 app.get(`${config.baseUrl}${config.endpoints.apps}`, apiWrapper(req => read(req.query.term)));
 
 // Create a new entry
-app.post(`${config.baseUrl}${config.endpoints.apps}`, apiWrapper(req => create(req.body)));
+app.post(`${config.baseUrl}${config.endpoints.apps}`, apiWrapper(
+  req => create(req.body).then(({ objectID }) => ({ objectID }))
+));
 
 // Delete an existing entry
 app.delete(`${config.baseUrl}${config.endpoints.apps}/:id`, apiWrapper(req => del(req.params.id)));

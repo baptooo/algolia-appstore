@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "1c0951b8-ee10-4037-a3e0-00a33a116a55",
+		"name": "algolia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Appstore POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"category\": \"Games\",\r\n  \"rating\": 5,\r\n  \"name\": \"Foobar\",\r\n  \"image\": \"\",\r\n  \"link\": \"\",\r\n  \"ratingCount\": 100,\r\n  \"price\": \"0 USD\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/apps",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"apps"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Appstore GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5000/api/1/apps?term=frogger",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"apps"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "frogger"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Appstore DELETE",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"category\": \"Games\",\r\n  \"rating\": 5,\r\n  \"name\": \"Foobar\",\r\n  \"image\": \"\",\r\n  \"link\": \"\",\r\n  \"ratingCount\": 100,\r\n  \"price\": \"0 USD\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/1/apps",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"1",
+						"apps"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
