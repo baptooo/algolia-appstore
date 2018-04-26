@@ -1,3 +1,9 @@
+#### 0.7.1 (2018-04-26)
+
+##### Bug Fixes
+
+* **index:**  async blocking css (419c1931)
+
 #### 0.7.0 (2018-04-26)
 
 ##### New Features
