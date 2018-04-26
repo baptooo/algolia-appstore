@@ -1,6 +1,6 @@
 # Algolia appstore APP
 
-![](https://api.travis-ci.org/baptooo/algolia-appstore.svg?branch=master)
+[![Build Status](https://travis-ci.org/baptooo/algolia-appstore.svg?branch=master)](https://travis-ci.org/baptooo/algolia-appstore)
 
 - [Presentation](#presentation)
 - [Getting started](#getting-started)
