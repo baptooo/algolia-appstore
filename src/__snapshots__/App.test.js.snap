@@ -1,0 +1,2097 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) App should render correctly with no result 1`] = `
+<main
+  className="App-main-1"
+>
+  <div
+    className="MuiGrid-container-3 MuiGrid-spacing-xs-24-26"
+  >
+    <div
+      className="MuiGrid-item-4 MuiGrid-grid-sm-4-45"
+    >
+      <h1
+        className="MuiTypography-root-93 MuiTypography-headline-98 App-title-2"
+      >
+        Appstore search
+      </h1>
+      <img
+        alt=""
+        src="https://www.algolia.com/static_assets/images/press/downloads/algolia-logo-light.svg"
+        width="120"
+      />
+    </div>
+    <div
+      className="MuiGrid-item-4 MuiGrid-grid-sm-8-49"
+    >
+      <div
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          aria-describedby={undefined}
+          className="MuiFormControl-root-120 Search-textField-118"
+          onBlur={[Function]}
+          onFocus={[Function]}
+        >
+          <label
+            className="MuiFormLabel-root-129 MuiInputLabel-root-124 MuiInputLabel-formControl-125 MuiInputLabel-animated-128"
+            data-shrink={false}
+            htmlFor={undefined}
+          >
+            Search for an app by name
+          </label>
+          <div
+            className="MuiInput-root-134 MuiInput-formControl-135 MuiInput-underline-138"
+          >
+            <input
+              aria-invalid={false}
+              aria-required={false}
+              autoComplete="off"
+              autoFocus={undefined}
+              className="MuiInput-input-142"
+              defaultValue={undefined}
+              disabled={false}
+              id={undefined}
+              name="term"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={undefined}
+              onKeyUp={undefined}
+              placeholder={undefined}
+              readOnly={undefined}
+              required={undefined}
+              rows={undefined}
+              type="text"
+              value={undefined}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-4 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-4-45"
+    />
+    <div
+      className="MuiGrid-item-4 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49"
+    >
+      <section>
+        <h1
+          className="MuiTypography-root-93 MuiTypography-headline-98"
+        >
+          0
+           results
+        </h1>
+        <button
+          className="MuiButtonBase-root-165 MuiButton-root-150"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiButton-label-151"
+          >
+            Clear 
+            <span
+              aria-hidden="true"
+              className="material-icons MuiIcon-root-167"
+            >
+              clear_all
+            </span>
+          </span>
+          <span
+            className="MuiTouchRipple-root-173"
+          />
+        </button>
+      </section>
+    </div>
+  </div>
+</main>
+`;
+
+exports[`(Component) App should render correctly with results 1`] = `
+<main
+  className="App-main-1"
+>
+  <div
+    className="MuiGrid-container-3 MuiGrid-spacing-xs-24-26"
+  >
+    <div
+      className="MuiGrid-item-4 MuiGrid-grid-sm-4-45"
+    >
+      <h1
+        className="MuiTypography-root-93 MuiTypography-headline-98 App-title-2"
+      >
+        Appstore search
+      </h1>
+      <img
+        alt=""
+        src="https://www.algolia.com/static_assets/images/press/downloads/algolia-logo-light.svg"
+        width="120"
+      />
+    </div>
+    <div
+      className="MuiGrid-item-4 MuiGrid-grid-sm-8-49"
+    >
+      <div
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        <div
+          aria-describedby={undefined}
+          className="MuiFormControl-root-120 Search-textField-118"
+          onBlur={[Function]}
+          onFocus={[Function]}
+        >
+          <label
+            className="MuiFormLabel-root-129 MuiInputLabel-root-124 MuiInputLabel-formControl-125 MuiInputLabel-animated-128"
+            data-shrink={false}
+            htmlFor={undefined}
+          >
+            Search for an app by name
+          </label>
+          <div
+            className="MuiInput-root-134 MuiInput-formControl-135 MuiInput-underline-138"
+          >
+            <input
+              aria-invalid={false}
+              aria-required={false}
+              autoComplete="off"
+              autoFocus={undefined}
+              className="MuiInput-input-142"
+              defaultValue={undefined}
+              disabled={false}
+              id={undefined}
+              name="term"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={undefined}
+              onKeyUp={undefined}
+              placeholder={undefined}
+              readOnly={undefined}
+              required={undefined}
+              rows={undefined}
+              type="text"
+              value={undefined}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-4 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-4-45"
+    >
+      <div
+        className="Facets-facet-147"
+      >
+        <h2
+          className="MuiTypography-root-93 MuiTypography-headline-98 Facets-title-148"
+        >
+          facet-0
+          <span
+            className="Facets-chip-149"
+          />
+        </h2>
+        <div
+          className="MuiFormControl-root-120"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "minWidth": "100%",
+            }
+          }
+        >
+          <div
+            className="MuiInput-root-134 MuiInput-formControl-135 MuiInput-underline-138"
+          >
+            <div
+              className="MuiSelect-root-180"
+            >
+              <div
+                aria-haspopup="true"
+                aria-owns={null}
+                aria-pressed="false"
+                className="MuiSelect-select-181 MuiSelect-selectMenu-182 MuiInput-input-142"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Choose a 
+                facet-0
+              </div>
+              <input
+                aria-invalid={false}
+                aria-required={false}
+                autoComplete={undefined}
+                autoFocus={undefined}
+                defaultValue={undefined}
+                id="facet-facet-0"
+                name="facet-0"
+                onKeyDown={undefined}
+                onKeyUp={undefined}
+                placeholder={undefined}
+                readOnly={undefined}
+                required={undefined}
+                rows={undefined}
+                type="hidden"
+                value=""
+              />
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-185 MuiSelect-icon-184"
+                color={undefined}
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="Facets-facet-147"
+      >
+        <h2
+          className="MuiTypography-root-93 MuiTypography-headline-98 Facets-title-148"
+        >
+          facet-1
+          <span
+            className="Facets-chip-149"
+          />
+        </h2>
+        <div
+          className="MuiFormControl-root-120"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "minWidth": "100%",
+            }
+          }
+        >
+          <div
+            className="MuiInput-root-134 MuiInput-formControl-135 MuiInput-underline-138"
+          >
+            <div
+              className="MuiSelect-root-180"
+            >
+              <div
+                aria-haspopup="true"
+                aria-owns={null}
+                aria-pressed="false"
+                className="MuiSelect-select-181 MuiSelect-selectMenu-182 MuiInput-input-142"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Choose a 
+                facet-1
+              </div>
+              <input
+                aria-invalid={false}
+                aria-required={false}
+                autoComplete={undefined}
+                autoFocus={undefined}
+                defaultValue={undefined}
+                id="facet-facet-1"
+                name="facet-1"
+                onKeyDown={undefined}
+                onKeyUp={undefined}
+                placeholder={undefined}
+                readOnly={undefined}
+                required={undefined}
+                rows={undefined}
+                type="hidden"
+                value=""
+              />
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-185 MuiSelect-icon-184"
+                color={undefined}
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="Facets-facet-147"
+      >
+        <h2
+          className="MuiTypography-root-93 MuiTypography-headline-98 Facets-title-148"
+        >
+          facet-2
+          <span
+            className="Facets-chip-149"
+          />
+        </h2>
+        <div
+          className="MuiFormControl-root-120"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "minWidth": "100%",
+            }
+          }
+        >
+          <div
+            className="MuiInput-root-134 MuiInput-formControl-135 MuiInput-underline-138"
+          >
+            <div
+              className="MuiSelect-root-180"
+            >
+              <div
+                aria-haspopup="true"
+                aria-owns={null}
+                aria-pressed="false"
+                className="MuiSelect-select-181 MuiSelect-selectMenu-182 MuiInput-input-142"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Choose a 
+                facet-2
+              </div>
+              <input
+                aria-invalid={false}
+                aria-required={false}
+                autoComplete={undefined}
+                autoFocus={undefined}
+                defaultValue={undefined}
+                id="facet-facet-2"
+                name="facet-2"
+                onKeyDown={undefined}
+                onKeyUp={undefined}
+                placeholder={undefined}
+                readOnly={undefined}
+                required={undefined}
+                rows={undefined}
+                type="hidden"
+                value=""
+              />
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-185 MuiSelect-icon-184"
+                color={undefined}
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="Facets-facet-147"
+      >
+        <h2
+          className="MuiTypography-root-93 MuiTypography-headline-98 Facets-title-148"
+        >
+          facet-3
+          <span
+            className="Facets-chip-149"
+          />
+        </h2>
+        <div
+          className="MuiFormControl-root-120"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "minWidth": "100%",
+            }
+          }
+        >
+          <div
+            className="MuiInput-root-134 MuiInput-formControl-135 MuiInput-underline-138"
+          >
+            <div
+              className="MuiSelect-root-180"
+            >
+              <div
+                aria-haspopup="true"
+                aria-owns={null}
+                aria-pressed="false"
+                className="MuiSelect-select-181 MuiSelect-selectMenu-182 MuiInput-input-142"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Choose a 
+                facet-3
+              </div>
+              <input
+                aria-invalid={false}
+                aria-required={false}
+                autoComplete={undefined}
+                autoFocus={undefined}
+                defaultValue={undefined}
+                id="facet-facet-3"
+                name="facet-3"
+                onKeyDown={undefined}
+                onKeyUp={undefined}
+                placeholder={undefined}
+                readOnly={undefined}
+                required={undefined}
+                rows={undefined}
+                type="hidden"
+                value=""
+              />
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-185 MuiSelect-icon-184"
+                color={undefined}
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="Facets-facet-147"
+      >
+        <h2
+          className="MuiTypography-root-93 MuiTypography-headline-98 Facets-title-148"
+        >
+          facet-4
+          <span
+            className="Facets-chip-149"
+          />
+        </h2>
+        <div
+          className="MuiFormControl-root-120"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          style={
+            Object {
+              "minWidth": "100%",
+            }
+          }
+        >
+          <div
+            className="MuiInput-root-134 MuiInput-formControl-135 MuiInput-underline-138"
+          >
+            <div
+              className="MuiSelect-root-180"
+            >
+              <div
+                aria-haspopup="true"
+                aria-owns={null}
+                aria-pressed="false"
+                className="MuiSelect-select-181 MuiSelect-selectMenu-182 MuiInput-input-142"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Choose a 
+                facet-4
+              </div>
+              <input
+                aria-invalid={false}
+                aria-required={false}
+                autoComplete={undefined}
+                autoFocus={undefined}
+                defaultValue={undefined}
+                id="facet-facet-4"
+                name="facet-4"
+                onKeyDown={undefined}
+                onKeyUp={undefined}
+                placeholder={undefined}
+                readOnly={undefined}
+                required={undefined}
+                rows={undefined}
+                type="hidden"
+                value=""
+              />
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-185 MuiSelect-icon-184"
+                color={undefined}
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-4 MuiGrid-grid-xs-12-40 MuiGrid-grid-sm-8-49"
+    >
+      <section>
+        <h1
+          className="MuiTypography-root-93 MuiTypography-headline-98"
+        >
+          4
+           results
+        </h1>
+      </section>
+      <ul
+        className="MuiList-root-201 MuiList-padding-202"
+      >
+        <div
+          className="Results-item-195"
+        >
+          <li
+            className="MuiListItem-root-205 MuiListItem-default-208 MuiListItem-gutters-212"
+            disabled={false}
+          >
+            <div
+              className="MuiAvatar-root-215 Results-avatar-196"
+            />
+            <div
+              className="MuiListItemText-root-218"
+            >
+              <h3
+                className="MuiTypography-root-93 MuiTypography-subheading-100 MuiListItemText-primary-221"
+              >
+                <span>
+                  app-0
+                </span>
+              </h3>
+              <p
+                className="MuiTypography-root-93 MuiTypography-body1-102 MuiTypography-colorTextSecondary-115 MuiListItemText-secondary-222"
+              >
+                <span>
+                  app-0
+                </span>
+              </p>
+            </div>
+            <div
+              className="Results-price-197"
+            >
+              <div
+                className="MuiChip-root-225"
+                onClick={undefined}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={-1}
+              >
+                <span
+                  className="MuiChip-label-230"
+                />
+              </div>
+            </div>
+          </li>
+          <hr
+            className="MuiDivider-root-232"
+          />
+          <li
+            className="MuiListItem-root-205 MuiListItem-default-208 MuiListItem-gutters-212"
+            disabled={false}
+          >
+            <span
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "direction": "ltr",
+                  "display": "inline-block",
+                }
+              }
+            >
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+            </span>
+            <span
+              className="MuiTypography-root-93 MuiTypography-caption-103"
+            >
+              (
+               votes)
+            </span>
+            <div
+              className="Results-install-199"
+            >
+              <button
+                className="MuiButtonBase-root-165 MuiButton-root-150 MuiButton-sizeSmall-162"
+                disabled={false}
+                href={undefined}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-151"
+                >
+                  Install
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 Results-icon-200"
+                  >
+                    file_download
+                  </span>
+                </span>
+                <span
+                  className="MuiTouchRipple-root-173"
+                />
+              </button>
+            </div>
+          </li>
+        </div>
+        <div
+          className="Results-item-195"
+        >
+          <li
+            className="MuiListItem-root-205 MuiListItem-default-208 MuiListItem-gutters-212"
+            disabled={false}
+          >
+            <div
+              className="MuiAvatar-root-215 Results-avatar-196"
+            />
+            <div
+              className="MuiListItemText-root-218"
+            >
+              <h3
+                className="MuiTypography-root-93 MuiTypography-subheading-100 MuiListItemText-primary-221"
+              >
+                <span>
+                  app-1
+                </span>
+              </h3>
+              <p
+                className="MuiTypography-root-93 MuiTypography-body1-102 MuiTypography-colorTextSecondary-115 MuiListItemText-secondary-222"
+              >
+                <span>
+                  app-1
+                </span>
+              </p>
+            </div>
+            <div
+              className="Results-price-197"
+            >
+              <div
+                className="MuiChip-root-225"
+                onClick={undefined}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={-1}
+              >
+                <span
+                  className="MuiChip-label-230"
+                />
+              </div>
+            </div>
+          </li>
+          <hr
+            className="MuiDivider-root-232"
+          />
+          <li
+            className="MuiListItem-root-205 MuiListItem-default-208 MuiListItem-gutters-212"
+            disabled={false}
+          >
+            <span
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "direction": "ltr",
+                  "display": "inline-block",
+                }
+              }
+            >
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+            </span>
+            <span
+              className="MuiTypography-root-93 MuiTypography-caption-103"
+            >
+              (
+               votes)
+            </span>
+            <div
+              className="Results-install-199"
+            >
+              <button
+                className="MuiButtonBase-root-165 MuiButton-root-150 MuiButton-sizeSmall-162"
+                disabled={false}
+                href={undefined}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-151"
+                >
+                  Install
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 Results-icon-200"
+                  >
+                    file_download
+                  </span>
+                </span>
+                <span
+                  className="MuiTouchRipple-root-173"
+                />
+              </button>
+            </div>
+          </li>
+        </div>
+        <div
+          className="Results-item-195"
+        >
+          <li
+            className="MuiListItem-root-205 MuiListItem-default-208 MuiListItem-gutters-212"
+            disabled={false}
+          >
+            <div
+              className="MuiAvatar-root-215 Results-avatar-196"
+            />
+            <div
+              className="MuiListItemText-root-218"
+            >
+              <h3
+                className="MuiTypography-root-93 MuiTypography-subheading-100 MuiListItemText-primary-221"
+              >
+                <span>
+                  app-2
+                </span>
+              </h3>
+              <p
+                className="MuiTypography-root-93 MuiTypography-body1-102 MuiTypography-colorTextSecondary-115 MuiListItemText-secondary-222"
+              >
+                <span>
+                  app-2
+                </span>
+              </p>
+            </div>
+            <div
+              className="Results-price-197"
+            >
+              <div
+                className="MuiChip-root-225"
+                onClick={undefined}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={-1}
+              >
+                <span
+                  className="MuiChip-label-230"
+                />
+              </div>
+            </div>
+          </li>
+          <hr
+            className="MuiDivider-root-232"
+          />
+          <li
+            className="MuiListItem-root-205 MuiListItem-default-208 MuiListItem-gutters-212"
+            disabled={false}
+          >
+            <span
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "direction": "ltr",
+                  "display": "inline-block",
+                }
+              }
+            >
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+            </span>
+            <span
+              className="MuiTypography-root-93 MuiTypography-caption-103"
+            >
+              (
+               votes)
+            </span>
+            <div
+              className="Results-install-199"
+            >
+              <button
+                className="MuiButtonBase-root-165 MuiButton-root-150 MuiButton-sizeSmall-162"
+                disabled={false}
+                href={undefined}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-151"
+                >
+                  Install
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 Results-icon-200"
+                  >
+                    file_download
+                  </span>
+                </span>
+                <span
+                  className="MuiTouchRipple-root-173"
+                />
+              </button>
+            </div>
+          </li>
+        </div>
+        <div
+          className="Results-item-195"
+        >
+          <li
+            className="MuiListItem-root-205 MuiListItem-default-208 MuiListItem-gutters-212"
+            disabled={false}
+          >
+            <div
+              className="MuiAvatar-root-215 Results-avatar-196"
+            />
+            <div
+              className="MuiListItemText-root-218"
+            >
+              <h3
+                className="MuiTypography-root-93 MuiTypography-subheading-100 MuiListItemText-primary-221"
+              >
+                <span>
+                  app-3
+                </span>
+              </h3>
+              <p
+                className="MuiTypography-root-93 MuiTypography-body1-102 MuiTypography-colorTextSecondary-115 MuiListItemText-secondary-222"
+              >
+                <span>
+                  app-3
+                </span>
+              </p>
+            </div>
+            <div
+              className="Results-price-197"
+            >
+              <div
+                className="MuiChip-root-225"
+                onClick={undefined}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={-1}
+              >
+                <span
+                  className="MuiChip-label-230"
+                />
+              </div>
+            </div>
+          </li>
+          <hr
+            className="MuiDivider-root-232"
+          />
+          <li
+            className="MuiListItem-root-205 MuiListItem-default-208 MuiListItem-gutters-212"
+            disabled={false}
+          >
+            <span
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "direction": "ltr",
+                  "display": "inline-block",
+                }
+              }
+            >
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+            </span>
+            <span
+              className="MuiTypography-root-93 MuiTypography-caption-103"
+            >
+              (
+               votes)
+            </span>
+            <div
+              className="Results-install-199"
+            >
+              <button
+                className="MuiButtonBase-root-165 MuiButton-root-150 MuiButton-sizeSmall-162"
+                disabled={false}
+                href={undefined}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-151"
+                >
+                  Install
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 Results-icon-200"
+                  >
+                    file_download
+                  </span>
+                </span>
+                <span
+                  className="MuiTouchRipple-root-173"
+                />
+              </button>
+            </div>
+          </li>
+        </div>
+        <div
+          className="Results-item-195"
+        >
+          <li
+            className="MuiListItem-root-205 MuiListItem-default-208 MuiListItem-gutters-212"
+            disabled={false}
+          >
+            <div
+              className="MuiAvatar-root-215 Results-avatar-196"
+            />
+            <div
+              className="MuiListItemText-root-218"
+            >
+              <h3
+                className="MuiTypography-root-93 MuiTypography-subheading-100 MuiListItemText-primary-221"
+              >
+                <span>
+                  app-4
+                </span>
+              </h3>
+              <p
+                className="MuiTypography-root-93 MuiTypography-body1-102 MuiTypography-colorTextSecondary-115 MuiListItemText-secondary-222"
+              >
+                <span>
+                  app-4
+                </span>
+              </p>
+            </div>
+            <div
+              className="Results-price-197"
+            >
+              <div
+                className="MuiChip-root-225"
+                onClick={undefined}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={-1}
+              >
+                <span
+                  className="MuiChip-label-230"
+                />
+              </div>
+            </div>
+          </li>
+          <hr
+            className="MuiDivider-root-232"
+          />
+          <li
+            className="MuiListItem-root-205 MuiListItem-default-208 MuiListItem-gutters-212"
+            disabled={false}
+          >
+            <span
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "direction": "ltr",
+                  "display": "inline-block",
+                }
+              }
+            >
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+              <span
+                onClick={[Function]}
+                onMouseMove={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                style={
+                  Object {
+                    "cursor": "auto",
+                    "display": "inline-block",
+                    "position": "relative",
+                  }
+                }
+              >
+                <span
+                  aria-hidden="true"
+                  className="material-icons MuiIcon-root-167 MuiIcon-colorDisabled-171"
+                >
+                  star
+                </span>
+                <span
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "0%",
+                    }
+                  }
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 MuiIcon-colorPrimary-168"
+                  >
+                    star
+                  </span>
+                </span>
+              </span>
+            </span>
+            <span
+              className="MuiTypography-root-93 MuiTypography-caption-103"
+            >
+              (
+               votes)
+            </span>
+            <div
+              className="Results-install-199"
+            >
+              <button
+                className="MuiButtonBase-root-165 MuiButton-root-150 MuiButton-sizeSmall-162"
+                disabled={false}
+                href={undefined}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiButton-label-151"
+                >
+                  Install
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-167 Results-icon-200"
+                  >
+                    file_download
+                  </span>
+                </span>
+                <span
+                  className="MuiTouchRipple-root-173"
+                />
+              </button>
+            </div>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </div>
+</main>
+`;

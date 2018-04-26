@@ -30,6 +30,7 @@
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "generate-changelog": "^1.7.1",
+    "react-test-renderer": "^16.3.2",
     "surge": "^0.20.1"
   }
 }

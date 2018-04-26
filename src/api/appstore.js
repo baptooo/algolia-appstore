@@ -6,8 +6,6 @@ const helper = algoliasearchHelper(client, 'appstore', {
   facets: ['category', 'rating', 'price']
 });
 
-export const setQuery = (term) => helper.setQuery(term).search();
-
 // Helpers
 const removeFacetWithoutSearch = (name, value) => {
   switch (name) {
@@ -45,6 +43,8 @@ export const removeFacet = (name, value) => {
 export const getRefinements = (name) => {
   return helper.getRefinements(name);
 };
+
+export const setQuery = (term) => helper.setQuery(term).search();
 
 export const clearRefinements = () => helper.clearRefinements().search();
 

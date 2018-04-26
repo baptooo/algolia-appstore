@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) Emphasis should render correctly 1`] = `
+<span>
+  <em
+    className="Emphasis-emphasis-1"
+  >
+    Foo
+  </em>
+   bar
+</span>
+`;

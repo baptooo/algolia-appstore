@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import SafelySetInnerHTML from 'safely-set-inner-html';
 import { withStyles } from 'material-ui/styles';
 
@@ -19,5 +20,9 @@ const styles = theme => ({
 const Emphasis = ({ value, classes }) => (
   <span>{instance.transform(value.replace(/<em/g, `<em className=${classes.emphasis}`))}</span>
 );
+
+Emphasis.propTypes = {
+  value: PropTypes.string.isRequired
+};
 
 export default withStyles(styles)(Emphasis);

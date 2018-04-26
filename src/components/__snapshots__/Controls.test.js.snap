@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) Controls should render correctly 1`] = `
+<section>
+  <h1
+    className="MuiTypography-root-1 MuiTypography-headline-6"
+  >
+    10
+     results
+  </h1>
+</section>
+`;
+
+exports[`(Component) Controls should show the clear button when no results 1`] = `
+<section>
+  <h1
+    className="MuiTypography-root-1 MuiTypography-headline-6"
+  >
+    0
+     results
+  </h1>
+  <button
+    className="MuiButtonBase-root-40 MuiButton-root-25"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+  >
+    <span
+      className="MuiButton-label-26"
+    >
+      Clear 
+      <span
+        aria-hidden="true"
+        className="material-icons MuiIcon-root-42"
+      >
+        clear_all
+      </span>
+    </span>
+    <span
+      className="MuiTouchRipple-root-48"
+    />
+  </button>
+</section>
+`;
