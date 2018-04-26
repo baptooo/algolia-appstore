@@ -1,21 +1,41 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from "prop-types";
 import Rating from 'react-rating';
 import Icon from 'material-ui/Icon';
+import Typography from 'material-ui/Typography';
 
-const RatingFacet = ({ name, values, addOrUpdateFacet }) => {
-  let initialValue = parseFloat(values[values.length - 1].name);
+class RatingFacet extends React.Component {
+  state = {
+    count: 0
+  };
 
-  return (
-    <Rating
-      initialRating={initialValue}
-      emptySymbol={<Icon color="disabled">star</Icon>}
-      fullSymbol={<Icon color="primary">star</Icon>}
-      fractions={2}
-      onChange={(rate) => addOrUpdateFacet(name, rate)}
-    />
-  )
-};
+  updateResults(rate) {
+    const facet = this.props.values.find(facet => +facet.name === rate);
+
+    this.setState({ count: facet ? facet.count : undefined });
+  }
+
+  render() {
+    const { name, values, addOrUpdateFacet } = this.props;
+    const currentFacet = values[values.length - 1];
+    const initialValue = parseFloat(currentFacet.name);
+    const count = this.state.count || currentFacet.count;
+
+    return (
+      <Fragment>
+        <Rating
+          initialRating={initialValue}
+          emptySymbol={<Icon color="disabled">star</Icon>}
+          fullSymbol={<Icon color="primary">star</Icon>}
+          fractions={2}
+          onHover={(rate) => this.updateResults(rate)}
+          onChange={(rate) => addOrUpdateFacet(name, rate)}
+        />
+        <Typography variant="caption">({count} results)</Typography>
+      </Fragment>
+    );
+  }
+}
 
 RatingFacet.propTypes = {
   name: PropTypes.string.isRequired,
