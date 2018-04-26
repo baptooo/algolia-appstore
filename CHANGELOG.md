@@ -1,3 +1,15 @@
+#### 0.5.0 (2018-04-26)
+
+##### New Features
+
+* **tests:**  add bunch of tests (f8057c5e)
+* **facets:**  add counters (96820ff8)
+* **Controls:**  add Controls component for results (1bb8308e)
+
+##### Bug Fixes
+
+* **README:**  build status was wrong (0eacd75e)
+
 #### 0.4.0 (2018-04-25)
 
 ##### New Features
