@@ -17,6 +17,9 @@ const styles = theme => ({
   title: {
     margin: '25px 0 10px',
     color: theme.palette.grey[600],
+  },
+  link: {
+    color: theme.palette.primary.light,
   }
 });
 
@@ -37,7 +40,11 @@ class App extends Component {
         <Grid container spacing={24}>
           <Grid item sm={4}>
             <Typography className={classes.title} variant="headline" component="h1">
-              Appstore search
+              <span>Appstore search</span>&nbsp;<a
+                className={classes.link}
+                href={`https://github.com/baptooo/algolia-appstore/releases/tag/v${process.env.REACT_APP_VERSION}`}
+                target="_blank"
+              >v{process.env.REACT_APP_VERSION}</a>
             </Typography>
             <img src="https://www.algolia.com/static_assets/images/press/downloads/algolia-logo-light.svg" width="120" alt=""/>
           </Grid>
