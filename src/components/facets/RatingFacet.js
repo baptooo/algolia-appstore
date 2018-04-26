@@ -4,10 +4,7 @@ import Rating from 'react-rating';
 import Icon from 'material-ui/Icon';
 
 const RatingFacet = ({ name, values, addOrUpdateFacet }) => {
-  let initialValue = 0;
-  if (values.length === 1) {
-    initialValue = parseFloat(values[0].name);
-  }
+  let initialValue = parseFloat(values[values.length - 1].name);
 
   return (
     <Rating

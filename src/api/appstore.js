@@ -8,25 +8,45 @@ const helper = algoliasearchHelper(client, 'appstore', {
 
 export const setQuery = (term) => helper.setQuery(term).search();
 
+// Helpers
+const removeFacetWithoutSearch = (name, value) => {
+  switch (name) {
+    case 'rating':
+      return helper.removeNumericRefinement(name, '<=', value[0]);
+    default:
+      return helper.removeFacetRefinement(name, value);
+  }
+};
+
+const addFacetWithoutSearch = (name, value) => {
+  switch (name) {
+    case 'rating':
+      return helper.addNumericRefinement(name, '<=', value);
+    default:
+      return helper.addFacetRefinement(name, value);
+  }
+};
+
+// API
 export const addOrUpdateFacet = (name, value) => {
   if (helper.hasRefinements(name)) {
     const [refinement] = helper.getRefinements(name);
 
-    if (refinement.value !== value.toString()) {
-      helper.removeFacetRefinement(name, refinement.value);
-    }
+    removeFacetWithoutSearch(name, refinement.value)
   }
 
-  helper.addFacetRefinement(name, value).search();
+  addFacetWithoutSearch(name, value).search();
 };
 
 export const removeFacet = (name, value) => {
-  helper.removeFacetRefinement(name, value).search();
+  removeFacetWithoutSearch(name, value).search();
 };
 
 export const getRefinements = (name) => {
   return helper.getRefinements(name);
 };
+
+export const clearRefinements = () => helper.clearRefinements().search();
 
 export default (updateContent) => {
   // Subscribe to "result" event to update application store

@@ -3,10 +3,11 @@ import Grid from 'material-ui/Grid';
 import Typography from 'material-ui/Typography';
 import { withStyles } from 'material-ui/styles';
 
-import { setQuery, addOrUpdateFacet, removeFacet } from './api/appstore';
+import { setQuery, addOrUpdateFacet, removeFacet, clearRefinements } from './api/appstore';
 import Search from './components/Search';
 import Facets from './components/Facets';
-import Results from "./components/Results";
+import Results from './components/Results';
+import Controls from './components/Controls';
 
 const styles = theme => ({
   main: {
@@ -25,7 +26,9 @@ class App extends Component {
 
     const facets = content.facets.map(({name}) => ({
       name,
-      values: content.getFacetValues(name)
+      values: content.getFacetValues(name, {
+        sortBy: ['name:asc']
+      })
     }));
     const refinements = content.getRefinements();
 
@@ -50,9 +53,7 @@ class App extends Component {
             />
           </Grid>
           <Grid item xs={12} sm={8}>
-            <Typography variant="headline">
-              {content.nbHits} results
-            </Typography>
+            <Controls clear={clearRefinements} content={content}/>
             {content.hits.length ? <Results content={content.hits}/> : null}
           </Grid>
         </Grid>
