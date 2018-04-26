@@ -74,7 +74,7 @@ const Results = ({ content, classes }) => (
           <Typography variant="caption">({entry.ratingCount} votes)</Typography>
           <div className={classes.install}>
             <Button href={entry.link} color="default" size="small">
-              Install
+              {isFree(entry.price) ? 'Install' : 'Buy'}
               <Icon className={classes.icon}>file_download</Icon>
             </Button>
           </div>

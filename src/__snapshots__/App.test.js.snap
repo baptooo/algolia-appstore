@@ -893,7 +893,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 <span
                   className="MuiButton-label-152"
                 >
-                  Install
+                  Buy
                   <span
                     aria-hidden="true"
                     className="material-icons MuiIcon-root-168 Results-icon-201"
@@ -1194,7 +1194,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 <span
                   className="MuiButton-label-152"
                 >
-                  Install
+                  Buy
                   <span
                     aria-hidden="true"
                     className="material-icons MuiIcon-root-168 Results-icon-201"
@@ -1495,7 +1495,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 <span
                   className="MuiButton-label-152"
                 >
-                  Install
+                  Buy
                   <span
                     aria-hidden="true"
                     className="material-icons MuiIcon-root-168 Results-icon-201"
@@ -1796,7 +1796,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 <span
                   className="MuiButton-label-152"
                 >
-                  Install
+                  Buy
                   <span
                     aria-hidden="true"
                     className="material-icons MuiIcon-root-168 Results-icon-201"
@@ -2097,7 +2097,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 <span
                   className="MuiButton-label-152"
                 >
-                  Install
+                  Buy
                   <span
                     aria-hidden="true"
                     className="material-icons MuiIcon-root-168 Results-icon-201"
