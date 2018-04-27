@@ -66,7 +66,13 @@ $ yarn start
 
 This will run the server locally on the port **3000**
 
-**Run tests** with `yarn test`
+**Unit tests**
+
+Run the **unit tests** with the following command:
+
+```sh
+$ yarn test
+```
 
 # Presentation
 
