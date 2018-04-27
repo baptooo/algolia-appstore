@@ -52,6 +52,7 @@ $ yarn api
 ```
 
 This will run the server locally on the port **5000**
+
 In order to test it, you will find a configuration file [algolia.postman_collection.json](./server/algolia.postman_collection.json)
 for the tool [postman](https://www.getpostman.com/) that you can get for free.
 
@@ -154,8 +155,7 @@ Response:
 
 ### Backend technical architecture
 
-The backend application is written in Javascript with NodeJS.
-It uses the framework [ExpressJs](http://expressjs.com/) to manage the HTTP requests
+The backend application is written in Javascript with NodeJS. It uses the framework [ExpressJs](http://expressjs.com/) to manage the HTTP requests
 
 Every request performs an API call to Algolia thanks to [algoliasearch](https://www.algolia.com/doc/api-client/javascript/getting-started/)
 
@@ -239,4 +239,5 @@ This will help preventing any regression or undesired changes on the UI part.
 ### Release
 
 When a bump is done on the project's version there is a **CHANGELOG** generated automatically thanks to the library [generate-changelog](https://github.com/lob/generate-changelog)
+
 Then it is added manually to the tag reference in the github interface [see example for v0.7.0](https://github.com/baptooo/algolia-appstore/releases/tag/v0.7.0)
