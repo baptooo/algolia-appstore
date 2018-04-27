@@ -4,7 +4,8 @@
 
 - [Demonstration](#demonstration)
 - [Getting started](#getting-started)
-- [Run the projects](#run-the-projects)
+    - [Installation](#installation)
+    - [Run the projects](#run-the-projects)
 - [Presentation](#presentation)
     - [Project structure](#project-structure)
     - [Backend](#backend)
@@ -26,6 +27,8 @@ You can view the frontend project here on surge : [brc-algolia-appstore.surge.sh
 
 # Getting started
 
+## Installation
+
 1. Clone the repo
 
 ```sh
@@ -38,9 +41,9 @@ $ git clone git@github.com:baptooo/algolia-appstore.git
 $ yarn | npm install
 ```
 
-# Run the projects
+## Run the projects
 
-## Backend
+**Backend**
 
 You can **run the backend project** with the following command:
 
@@ -52,7 +55,7 @@ This will run the server locally on the port **5000**
 In order to test it, you will find a configuration file [algolia.postman_collection.json](./server/algolia.postman_collection.json)
 for the tool [postman](https://www.getpostman.com/) that you can get for free.
 
-## Frontend
+**Frontend**
 
 You can **run the frontend project** with the following command:
 
