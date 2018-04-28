@@ -1,3 +1,18 @@
+#### 0.7.2 (2018-04-28)
+
+##### Bug Fixes
+
+* **README:**  english typos (9f23c7e2)
+
+##### Other Changes
+
+* **README:**
+  *  add requirements section (d190afe4)
+  *  unit tests command badly formated (886f79f4)
+  *  bad paragraph structure (a4f208bb)
+  *  getting started structure (bdd3d0e9)
+  *  improve general documentation (8b0a7173)
+
 #### 0.7.1 (2018-04-26)
 
 ##### Bug Fixes
