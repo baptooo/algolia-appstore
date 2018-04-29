@@ -1,3 +1,9 @@
+#### 0.8.1 (2018-04-29)
+
+##### Bug Fixes
+
+* **mobile:**  Hidden component was breaking RWD Grid (07da09a1)
+
 #### 0.8.0 (2018-04-29)
 
 ##### New Features
