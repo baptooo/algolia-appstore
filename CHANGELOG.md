@@ -1,3 +1,9 @@
+#### 0.8.0 (2018-04-29)
+
+##### New Features
+
+* **Facets:**  add RWD behaviour for facets (c5f5d46f)
+
 #### 0.7.2 (2018-04-28)
 
 ##### Bug Fixes
