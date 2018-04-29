@@ -1,3 +1,9 @@
+#### 1.1.0 (2018-04-29)
+
+##### New Features
+
+* **queryString:**  add research queryString (1140f49c)
+
 #### 1.0.1 (2018-04-29)
 
 ##### Bug Fixes
