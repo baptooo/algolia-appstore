@@ -1,3 +1,9 @@
+#### 1.0.1 (2018-04-29)
+
+##### Bug Fixes
+
+* **Controls:**  improve navigation (f99fc572)
+
 #### 1.0.0 (2018-04-29)
 
 ##### New Features
