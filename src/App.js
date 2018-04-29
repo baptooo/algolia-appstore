@@ -77,7 +77,7 @@ class App extends Component {
                 </IconButton>
               </Grid>
               <Grid item sm={12} xs={10}>
-                <Search onChange={setQuery} />
+                <Search query={content.query} onChange={setQuery} />
               </Grid>
             </Grid>
           </Grid>

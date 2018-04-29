@@ -217,11 +217,13 @@ that respects Accessibility and UX / UI standards erected by [material-design](h
 
 All the API calls are done by the library [algolia-research-helper](https://community.algolia.com/algoliasearch-helper-js/)
 
-**About performance**
+**(DEPRECATED) About performance**
 
-At build time, the application is rendered statically with a chromium headless browser thanks to the library [react-snap](https://github.com/stereobooster/react-snap)
+>At build time, the application is rendered statically with a chromium headless browser thanks to the library [react-snap](https://github.com/stereobooster/react-snap)
 It allows a good [First meaningful paint](https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint) which is a very
 important notion for user experience especially on mobile.
+
+React-snap was disabled due to the incompatibility with **material-ui** in SSR mode 
 
 ### Continuous integration
 

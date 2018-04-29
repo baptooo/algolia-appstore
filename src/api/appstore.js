@@ -6,6 +6,21 @@ const helper = algoliasearchHelper(client, 'appstore', {
   facets: ['category', 'rating', 'price']
 });
 
+/**
+ * Retrieve the state from the current query string
+ */
+try {
+  const { search = '?' } = window.location;
+
+  if (search) {
+    helper.setState(
+      algoliasearchHelper.url.getStateFromQueryString(search.slice(1))
+    );
+  }
+} catch (err) {
+  console.error(err);
+}
+
 // Helpers
 const removeFacetWithoutSearch = (name, value) => {
   switch (name) {
@@ -55,6 +70,13 @@ export const setPage = (index) => helper.setPage(index).search();
 export default (updateContent) => {
   // Subscribe to "result" event to update application store
   helper.on('result', updateContent);
+
+  // Update current query string whenever a change is done to the state
+  helper.on('change', (state) => {
+    const queryString = algoliasearchHelper.url.getQueryStringFromState(state);
+
+    window.history.replaceState(null, null, `?${queryString}`);
+  });
 
   // Perform the initial search to have content
   helper.search();

@@ -17,9 +17,10 @@ const styles = theme => ({
   },
 });
 
-const Search = ({ onChange, classes }) => (
+const Search = ({ onChange, classes, query }) => (
   <div style={{ textAlign: 'center' }}>
     <TextField
+      value={query}
       className={classes.textField}
       name="term"
       label="Search for an app by name"

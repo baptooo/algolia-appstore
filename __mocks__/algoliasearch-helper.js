@@ -16,6 +16,14 @@ const SingleTon = {
   setQuery: jest.fn(() => SingleTon),
   setIndex: jest.fn(() => SingleTon),
   setPage: jest.fn(() => SingleTon),
+  setState: jest.fn(() => SingleTon)
 }
 
-module.exports = () => SingleTon;
+const algoliaSearchHelper = () => SingleTon;
+
+algoliaSearchHelper.url = {
+  getQueryStringFromState: () => '',
+  getStateFromQueryString: () => ({})
+};
+
+module.exports = algoliaSearchHelper;
