@@ -84,7 +84,7 @@ $ (yarn | npm run) test
 
 # Presentation
 
-This project is done for the [algolia assignment](https://gist.github.com/vvo/08850adfc3736869f04bcf5586418add#-pointers) of the **JavaScript Open Source Software Engineer** position.
+This project is done for the [algolia assignment](https://gist.github.com/vvo/08850adfc3736869f04bcf5586418add) of the **JavaScript Open Source Software Engineer** position.
 
 ### Project structure
 
@@ -200,12 +200,13 @@ Also, while hovering the stars with a mouse, it will show the count of results p
 6. Same as 4. but for the facet **price**
 7. This is the component [Controls](./src/components/Controls.js) that simply displays the number of results every time an API call is done.
 If the research is too specific and there is no result, it will show a button to reset the facets.
-8. This is the component [Results](./src/components/Results.js) that shows the list of results
-9. This is an avatar of the application. There is an **error handler** on it and if the loading fails, it will show a placeholder (the algolia logo)
-10. This text block shows the name and the category of the current app
-11. The price is displayed and if it costs **0 USD** a mention **FREE** is written instead.
-12. The rate of the current app with the count of votes in parenthesis
-13. This button brings to the link of the app. If the current app is free, a mention **INSTALL** will be written instead of **BUY**
+8. Allows the user to filter the results by **rating** ASC or DESC
+9. Page navigation based on the results from the current content
+10. This is the component [Results](./src/components/Results.js) that shows the list of results. The avatar of the application has an **error handler** on it and if the loading fails, it will show a placeholder (the algolia logo)
+11. This text block shows the name and the category of the current app
+12. The price is displayed and if it costs **0 USD** a mention **FREE** is written instead.
+13. The rate of the current app with the count of votes in parenthesis
+14. This button brings to the link of the app. If the current app is free, a mention **INSTALL** will be written instead of **BUY**
 
 ### Frontend technical architecture
 

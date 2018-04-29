@@ -48,6 +48,10 @@ export const setQuery = (term) => helper.setQuery(term).search();
 
 export const clearRefinements = () => helper.clearRefinements().search();
 
+export const setIndex = (name) => helper.setIndex(name).search();
+
+export const setPage = (index) => helper.setPage(index).search();
+
 export default (updateContent) => {
   // Subscribe to "result" event to update application store
   helper.on('result', updateContent);

@@ -4,7 +4,10 @@ import Controls from "./Controls";
 
 const mockContent = {
   nbHits: 10,
-  hits: new Array(10).fill({})
+  hits: new Array(10).fill({}),
+  nbPages: 2,
+  hitsPerPage: 5,
+  page: 0
 };
 
 const mockNoContent = {

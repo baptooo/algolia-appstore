@@ -3,24 +3,374 @@
 exports[`(Component) Controls should render correctly 1`] = `
 <section>
   <h1
-    className="MuiTypography-root-1 MuiTypography-headline-6"
+    className="MuiTypography-root-2 MuiTypography-headline-7"
   >
     10
      results
+    <button
+      className="MuiButtonBase-root-41 MuiButton-root-26"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-27"
+      >
+        Rating (ASC)
+        <span
+          aria-hidden="true"
+          className="material-icons MuiIcon-root-43"
+        >
+          arrow_drop_up
+        </span>
+      </span>
+      <span
+        className="MuiTouchRipple-root-49"
+      />
+    </button>
   </h1>
+  <div
+    className={undefined}
+  >
+    <span
+      className="MuiTypography-root-2 MuiTypography-caption-12"
+    >
+      Page 
+      1
+       / 
+      2
+    </span>
+    <button
+      className="MuiButtonBase-root-41 MuiButtonBase-disabled-42 MuiButton-root-26 MuiButton-sizeSmall-38 MuiButton-disabled-35 Controls-navButton-1"
+      disabled={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="-1"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-27"
+      >
+        <span
+          aria-hidden="true"
+          className="material-icons MuiIcon-root-43"
+        >
+          fast_rewind
+        </span>
+      </span>
+    </button>
+    <button
+      className="MuiButtonBase-root-41 MuiButtonBase-disabled-42 MuiButton-root-26 MuiButton-sizeSmall-38 MuiButton-disabled-35 Controls-navButton-1"
+      disabled={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="-1"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-27"
+      >
+        <span
+          aria-hidden="true"
+          className="material-icons MuiIcon-root-43"
+        >
+          navigate_before
+        </span>
+      </span>
+    </button>
+    <button
+      className="MuiButtonBase-root-41 MuiButton-root-26 MuiButton-sizeSmall-38 Controls-navButton-1"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-27"
+      >
+        -3
+      </span>
+      <span
+        className="MuiTouchRipple-root-49"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-41 MuiButton-root-26 MuiButton-sizeSmall-38 Controls-navButton-1"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-27"
+      >
+        -2
+      </span>
+      <span
+        className="MuiTouchRipple-root-49"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-41 MuiButton-root-26 MuiButton-sizeSmall-38 Controls-navButton-1"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-27"
+      >
+        -1
+      </span>
+      <span
+        className="MuiTouchRipple-root-49"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-41 MuiButton-root-26 MuiButton-sizeSmall-38 Controls-navButton-1"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-27"
+      >
+        0
+      </span>
+      <span
+        className="MuiTouchRipple-root-49"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-41 MuiButton-root-26 MuiButton-sizeSmall-38 Controls-navButton-1"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-27"
+      >
+        1
+      </span>
+      <span
+        className="MuiTouchRipple-root-49"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-41 MuiButton-root-26 MuiButton-sizeSmall-38 Controls-navButton-1"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-27"
+      >
+        2
+      </span>
+      <span
+        className="MuiTouchRipple-root-49"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-41 MuiButton-root-26 MuiButton-sizeSmall-38 Controls-navButton-1"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-27"
+      >
+        <span
+          aria-hidden="true"
+          className="material-icons MuiIcon-root-43"
+        >
+          navigate_next
+        </span>
+      </span>
+      <span
+        className="MuiTouchRipple-root-49"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-41 MuiButton-root-26 MuiButton-sizeSmall-38 Controls-navButton-1"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-27"
+      >
+        <span
+          aria-hidden="true"
+          className="material-icons MuiIcon-root-43"
+        >
+          fast_forward
+        </span>
+      </span>
+      <span
+        className="MuiTouchRipple-root-49"
+      />
+    </button>
+  </div>
 </section>
 `;
 
 exports[`(Component) Controls should show the clear button when no results 1`] = `
 <section>
   <h1
-    className="MuiTypography-root-1 MuiTypography-headline-6"
+    className="MuiTypography-root-2 MuiTypography-headline-7"
   >
     0
      results
+    <button
+      className="MuiButtonBase-root-41 MuiButton-root-26"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiButton-label-27"
+      >
+        Rating (ASC)
+        <span
+          aria-hidden="true"
+          className="material-icons MuiIcon-root-43"
+        >
+          arrow_drop_up
+        </span>
+      </span>
+      <span
+        className="MuiTouchRipple-root-49"
+      />
+    </button>
   </h1>
   <button
-    className="MuiButtonBase-root-40 MuiButton-root-25"
+    className="MuiButtonBase-root-41 MuiButton-root-26"
     disabled={false}
     onBlur={[Function]}
     onClick={[Function]}
@@ -37,18 +387,18 @@ exports[`(Component) Controls should show the clear button when no results 1`] =
     type="button"
   >
     <span
-      className="MuiButton-label-26"
+      className="MuiButton-label-27"
     >
       Clear 
       <span
         aria-hidden="true"
-        className="material-icons MuiIcon-root-42"
+        className="material-icons MuiIcon-root-43"
       >
         clear_all
       </span>
     </span>
     <span
-      className="MuiTouchRipple-root-48"
+      className="MuiTouchRipple-root-49"
     />
   </button>
 </section>

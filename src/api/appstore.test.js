@@ -3,7 +3,9 @@ import appstore, {
   addOrUpdateFacet,
   clearRefinements,
   removeFacet,
-  getRefinements
+  getRefinements,
+  setIndex,
+  setPage
 } from './appstore';
 import algoliasearchHelper from 'algoliasearch-helper';
 
@@ -68,5 +70,19 @@ describe('(API) appstore', () => {
 
     expect(helper.getRefinements).toHaveBeenCalled();
     expect(refinements).toEqual(['refinement-mock-rating'])
+  });
+
+  it('should call setIndex', () => {
+    setIndex('test_index');
+
+    expect(helper.setIndex).toHaveBeenCalledWith('test_index');
+    expect(helper.search).toHaveBeenCalled();
+  });
+
+  it('should call setPage', () => {
+    setPage(2);
+
+    expect(helper.setPage).toHaveBeenCalledWith(2);
+    expect(helper.search).toHaveBeenCalled();
   });
 });

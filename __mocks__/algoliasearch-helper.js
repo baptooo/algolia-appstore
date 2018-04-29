@@ -13,7 +13,9 @@ const SingleTon = {
 
   on: jest.fn(() => SingleTon),
   search: jest.fn(() => SingleTon),
-  setQuery: jest.fn(() => SingleTon)
+  setQuery: jest.fn(() => SingleTon),
+  setIndex: jest.fn(() => SingleTon),
+  setPage: jest.fn(() => SingleTon),
 }
 
 module.exports = () => SingleTon;

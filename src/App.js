@@ -6,7 +6,7 @@ import IconButton from 'material-ui/IconButton';
 import Icon from 'material-ui/Icon';
 import { withStyles } from 'material-ui/styles';
 
-import { setQuery, addOrUpdateFacet, removeFacet, clearRefinements } from './api/appstore';
+import { setQuery, addOrUpdateFacet, removeFacet, clearRefinements, setIndex, setPage } from './api/appstore';
 import Search from './components/Search';
 import Facets from './components/Facets';
 import Results from './components/Results';
@@ -85,7 +85,7 @@ class App extends Component {
             {facetsContent}
           </Grid>
           <Grid item xs={12} sm={8}>
-            <Controls clear={clearRefinements} content={content}/>
+            <Controls clear={clearRefinements} setIndex={setIndex} setPage={setPage} content={content}/>
             {content.hits.length ? <Results content={content.hits}/> : null}
           </Grid>
         </Grid>
