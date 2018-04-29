@@ -39,6 +39,41 @@ exports[`(Component) App should render correctly with no result 1`] = `
         className="MuiGrid-container-4 MuiGrid-align-items-xs-baseline-15"
       >
         <div
+          className="MuiGrid-item-5 MuiGrid-grid-xs-2-31 bp-small"
+        >
+          <button
+            className="MuiButtonBase-root-124 MuiIconButton-root-118"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiIconButton-label-123"
+            >
+              <span
+                aria-hidden="true"
+                className="material-icons MuiIcon-root-126"
+              >
+                menu
+              </span>
+            </span>
+            <span
+              className="MuiTouchRipple-root-132"
+            />
+          </button>
+        </div>
+        <div
           className="MuiGrid-item-5 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-12-54"
         >
           <div
@@ -50,26 +85,26 @@ exports[`(Component) App should render correctly with no result 1`] = `
           >
             <div
               aria-describedby={undefined}
-              className="MuiFormControl-root-121 Search-textField-119"
+              className="MuiFormControl-root-142 Search-textField-140"
               onBlur={[Function]}
               onFocus={[Function]}
             >
               <label
-                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
+                className="MuiFormLabel-root-151 MuiInputLabel-root-146 MuiInputLabel-formControl-147 MuiInputLabel-animated-150"
                 data-shrink={false}
                 htmlFor={undefined}
               >
                 Search for an app by name
               </label>
               <div
-                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
+                className="MuiInput-root-156 MuiInput-formControl-157 MuiInput-underline-160"
               >
                 <input
                   aria-invalid={false}
                   aria-required={false}
                   autoComplete="off"
                   autoFocus={undefined}
-                  className="MuiInput-input-143"
+                  className="MuiInput-input-164"
                   defaultValue={undefined}
                   disabled={false}
                   id={undefined}
@@ -93,10 +128,10 @@ exports[`(Component) App should render correctly with no result 1`] = `
       </div>
     </div>
     <div
-      className="MuiGrid-item-5 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-4-46"
+      className="MuiGrid-item-5 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-4-46 bp-large"
     >
       <div
-        className="Facets-facets-178"
+        className="Facets-facets-169"
       />
     </div>
     <div
@@ -110,7 +145,7 @@ exports[`(Component) App should render correctly with no result 1`] = `
            results
         </h1>
         <button
-          className="MuiButtonBase-root-163 MuiButton-root-148"
+          className="MuiButtonBase-root-124 MuiButton-root-173"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -127,18 +162,18 @@ exports[`(Component) App should render correctly with no result 1`] = `
           type="button"
         >
           <span
-            className="MuiButton-label-149"
+            className="MuiButton-label-174"
           >
             Clear 
             <span
               aria-hidden="true"
-              className="material-icons MuiIcon-root-165"
+              className="material-icons MuiIcon-root-126"
             >
               clear_all
             </span>
           </span>
           <span
-            className="MuiTouchRipple-root-171"
+            className="MuiTouchRipple-root-132"
           />
         </button>
       </section>
@@ -186,6 +221,41 @@ exports[`(Component) App should render correctly with results 1`] = `
         className="MuiGrid-container-4 MuiGrid-align-items-xs-baseline-15"
       >
         <div
+          className="MuiGrid-item-5 MuiGrid-grid-xs-2-31 bp-small"
+        >
+          <button
+            className="MuiButtonBase-root-124 MuiIconButton-root-118"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiIconButton-label-123"
+            >
+              <span
+                aria-hidden="true"
+                className="material-icons MuiIcon-root-126"
+              >
+                menu
+              </span>
+            </span>
+            <span
+              className="MuiTouchRipple-root-132"
+            />
+          </button>
+        </div>
+        <div
           className="MuiGrid-item-5 MuiGrid-grid-xs-10-39 MuiGrid-grid-sm-12-54"
         >
           <div
@@ -197,26 +267,26 @@ exports[`(Component) App should render correctly with results 1`] = `
           >
             <div
               aria-describedby={undefined}
-              className="MuiFormControl-root-121 Search-textField-119"
+              className="MuiFormControl-root-142 Search-textField-140"
               onBlur={[Function]}
               onFocus={[Function]}
             >
               <label
-                className="MuiFormLabel-root-130 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
+                className="MuiFormLabel-root-151 MuiInputLabel-root-146 MuiInputLabel-formControl-147 MuiInputLabel-animated-150"
                 data-shrink={false}
                 htmlFor={undefined}
               >
                 Search for an app by name
               </label>
               <div
-                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
+                className="MuiInput-root-156 MuiInput-formControl-157 MuiInput-underline-160"
               >
                 <input
                   aria-invalid={false}
                   aria-required={false}
                   autoComplete="off"
                   autoFocus={undefined}
-                  className="MuiInput-input-143"
+                  className="MuiInput-input-164"
                   defaultValue={undefined}
                   disabled={false}
                   id={undefined}
@@ -240,24 +310,24 @@ exports[`(Component) App should render correctly with results 1`] = `
       </div>
     </div>
     <div
-      className="MuiGrid-item-5 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-4-46"
+      className="MuiGrid-item-5 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-4-46 bp-large"
     >
       <div
-        className="Facets-facets-178"
+        className="Facets-facets-169"
       >
         <div
-          className="Facets-facet-179"
+          className="Facets-facet-170"
         >
           <h2
-            className="MuiTypography-root-94 MuiTypography-headline-99 Facets-title-180"
+            className="MuiTypography-root-94 MuiTypography-headline-99 Facets-title-171"
           >
             facet-0
             <span
-              className="Facets-chip-181"
+              className="Facets-chip-172"
             />
           </h2>
           <div
-            className="MuiFormControl-root-121"
+            className="MuiFormControl-root-142"
             onBlur={[Function]}
             onFocus={[Function]}
             style={
@@ -267,16 +337,16 @@ exports[`(Component) App should render correctly with results 1`] = `
             }
           >
             <div
-              className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
+              className="MuiInput-root-156 MuiInput-formControl-157 MuiInput-underline-160"
             >
               <div
-                className="MuiSelect-root-223"
+                className="MuiSelect-root-188"
               >
                 <div
                   aria-haspopup="true"
                   aria-owns={null}
                   aria-pressed="false"
-                  className="MuiSelect-select-224 MuiSelect-selectMenu-225 MuiInput-input-143"
+                  className="MuiSelect-select-189 MuiSelect-selectMenu-190 MuiInput-input-164"
                   onBlur={[Function]}
                   onClick={[Function]}
                   onFocus={[Function]}
@@ -306,7 +376,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 />
                 <svg
                   aria-hidden="true"
-                  className="MuiSvgIcon-root-228 MuiSelect-icon-227"
+                  className="MuiSvgIcon-root-193 MuiSelect-icon-192"
                   color={undefined}
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -320,18 +390,18 @@ exports[`(Component) App should render correctly with results 1`] = `
           </div>
         </div>
         <div
-          className="Facets-facet-179"
+          className="Facets-facet-170"
         >
           <h2
-            className="MuiTypography-root-94 MuiTypography-headline-99 Facets-title-180"
+            className="MuiTypography-root-94 MuiTypography-headline-99 Facets-title-171"
           >
             facet-1
             <span
-              className="Facets-chip-181"
+              className="Facets-chip-172"
             />
           </h2>
           <div
-            className="MuiFormControl-root-121"
+            className="MuiFormControl-root-142"
             onBlur={[Function]}
             onFocus={[Function]}
             style={
@@ -341,16 +411,16 @@ exports[`(Component) App should render correctly with results 1`] = `
             }
           >
             <div
-              className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
+              className="MuiInput-root-156 MuiInput-formControl-157 MuiInput-underline-160"
             >
               <div
-                className="MuiSelect-root-223"
+                className="MuiSelect-root-188"
               >
                 <div
                   aria-haspopup="true"
                   aria-owns={null}
                   aria-pressed="false"
-                  className="MuiSelect-select-224 MuiSelect-selectMenu-225 MuiInput-input-143"
+                  className="MuiSelect-select-189 MuiSelect-selectMenu-190 MuiInput-input-164"
                   onBlur={[Function]}
                   onClick={[Function]}
                   onFocus={[Function]}
@@ -380,7 +450,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 />
                 <svg
                   aria-hidden="true"
-                  className="MuiSvgIcon-root-228 MuiSelect-icon-227"
+                  className="MuiSvgIcon-root-193 MuiSelect-icon-192"
                   color={undefined}
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -394,18 +464,18 @@ exports[`(Component) App should render correctly with results 1`] = `
           </div>
         </div>
         <div
-          className="Facets-facet-179"
+          className="Facets-facet-170"
         >
           <h2
-            className="MuiTypography-root-94 MuiTypography-headline-99 Facets-title-180"
+            className="MuiTypography-root-94 MuiTypography-headline-99 Facets-title-171"
           >
             facet-2
             <span
-              className="Facets-chip-181"
+              className="Facets-chip-172"
             />
           </h2>
           <div
-            className="MuiFormControl-root-121"
+            className="MuiFormControl-root-142"
             onBlur={[Function]}
             onFocus={[Function]}
             style={
@@ -415,16 +485,16 @@ exports[`(Component) App should render correctly with results 1`] = `
             }
           >
             <div
-              className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
+              className="MuiInput-root-156 MuiInput-formControl-157 MuiInput-underline-160"
             >
               <div
-                className="MuiSelect-root-223"
+                className="MuiSelect-root-188"
               >
                 <div
                   aria-haspopup="true"
                   aria-owns={null}
                   aria-pressed="false"
-                  className="MuiSelect-select-224 MuiSelect-selectMenu-225 MuiInput-input-143"
+                  className="MuiSelect-select-189 MuiSelect-selectMenu-190 MuiInput-input-164"
                   onBlur={[Function]}
                   onClick={[Function]}
                   onFocus={[Function]}
@@ -454,7 +524,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 />
                 <svg
                   aria-hidden="true"
-                  className="MuiSvgIcon-root-228 MuiSelect-icon-227"
+                  className="MuiSvgIcon-root-193 MuiSelect-icon-192"
                   color={undefined}
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -468,18 +538,18 @@ exports[`(Component) App should render correctly with results 1`] = `
           </div>
         </div>
         <div
-          className="Facets-facet-179"
+          className="Facets-facet-170"
         >
           <h2
-            className="MuiTypography-root-94 MuiTypography-headline-99 Facets-title-180"
+            className="MuiTypography-root-94 MuiTypography-headline-99 Facets-title-171"
           >
             facet-3
             <span
-              className="Facets-chip-181"
+              className="Facets-chip-172"
             />
           </h2>
           <div
-            className="MuiFormControl-root-121"
+            className="MuiFormControl-root-142"
             onBlur={[Function]}
             onFocus={[Function]}
             style={
@@ -489,16 +559,16 @@ exports[`(Component) App should render correctly with results 1`] = `
             }
           >
             <div
-              className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
+              className="MuiInput-root-156 MuiInput-formControl-157 MuiInput-underline-160"
             >
               <div
-                className="MuiSelect-root-223"
+                className="MuiSelect-root-188"
               >
                 <div
                   aria-haspopup="true"
                   aria-owns={null}
                   aria-pressed="false"
-                  className="MuiSelect-select-224 MuiSelect-selectMenu-225 MuiInput-input-143"
+                  className="MuiSelect-select-189 MuiSelect-selectMenu-190 MuiInput-input-164"
                   onBlur={[Function]}
                   onClick={[Function]}
                   onFocus={[Function]}
@@ -528,7 +598,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 />
                 <svg
                   aria-hidden="true"
-                  className="MuiSvgIcon-root-228 MuiSelect-icon-227"
+                  className="MuiSvgIcon-root-193 MuiSelect-icon-192"
                   color={undefined}
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -542,18 +612,18 @@ exports[`(Component) App should render correctly with results 1`] = `
           </div>
         </div>
         <div
-          className="Facets-facet-179"
+          className="Facets-facet-170"
         >
           <h2
-            className="MuiTypography-root-94 MuiTypography-headline-99 Facets-title-180"
+            className="MuiTypography-root-94 MuiTypography-headline-99 Facets-title-171"
           >
             facet-4
             <span
-              className="Facets-chip-181"
+              className="Facets-chip-172"
             />
           </h2>
           <div
-            className="MuiFormControl-root-121"
+            className="MuiFormControl-root-142"
             onBlur={[Function]}
             onFocus={[Function]}
             style={
@@ -563,16 +633,16 @@ exports[`(Component) App should render correctly with results 1`] = `
             }
           >
             <div
-              className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-underline-139"
+              className="MuiInput-root-156 MuiInput-formControl-157 MuiInput-underline-160"
             >
               <div
-                className="MuiSelect-root-223"
+                className="MuiSelect-root-188"
               >
                 <div
                   aria-haspopup="true"
                   aria-owns={null}
                   aria-pressed="false"
-                  className="MuiSelect-select-224 MuiSelect-selectMenu-225 MuiInput-input-143"
+                  className="MuiSelect-select-189 MuiSelect-selectMenu-190 MuiInput-input-164"
                   onBlur={[Function]}
                   onClick={[Function]}
                   onFocus={[Function]}
@@ -602,7 +672,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 />
                 <svg
                   aria-hidden="true"
-                  className="MuiSvgIcon-root-228 MuiSelect-icon-227"
+                  className="MuiSvgIcon-root-193 MuiSelect-icon-192"
                   color={undefined}
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -629,30 +699,30 @@ exports[`(Component) App should render correctly with results 1`] = `
         </h1>
       </section>
       <ul
-        className="MuiList-root-188 MuiList-padding-189"
+        className="MuiList-root-209 MuiList-padding-210"
       >
         <div
-          className="Results-item-182"
+          className="Results-item-203"
         >
           <li
-            className="MuiListItem-root-192 MuiListItem-default-195 MuiListItem-gutters-199"
+            className="MuiListItem-root-213 MuiListItem-default-216 MuiListItem-gutters-220"
             disabled={false}
           >
             <div
-              className="MuiAvatar-root-202 Results-avatar-183"
+              className="MuiAvatar-root-223 Results-avatar-204"
             />
             <div
-              className="MuiListItemText-root-205"
+              className="MuiListItemText-root-226"
             >
               <h3
-                className="MuiTypography-root-94 MuiTypography-subheading-101 MuiListItemText-primary-208"
+                className="MuiTypography-root-94 MuiTypography-subheading-101 MuiListItemText-primary-229"
               >
                 <span>
                   app-0
                 </span>
               </h3>
               <p
-                className="MuiTypography-root-94 MuiTypography-body1-103 MuiTypography-colorTextSecondary-116 MuiListItemText-secondary-209"
+                className="MuiTypography-root-94 MuiTypography-body1-103 MuiTypography-colorTextSecondary-116 MuiListItemText-secondary-230"
               >
                 <span>
                   app-0
@@ -660,26 +730,26 @@ exports[`(Component) App should render correctly with results 1`] = `
               </p>
             </div>
             <div
-              className="Results-price-184"
+              className="Results-price-205"
             >
               <div
-                className="MuiChip-root-212"
+                className="MuiChip-root-233"
                 onClick={undefined}
                 onKeyDown={[Function]}
                 role="button"
                 tabIndex={-1}
               >
                 <span
-                  className="MuiChip-label-217"
+                  className="MuiChip-label-238"
                 />
               </div>
             </div>
           </li>
           <hr
-            className="MuiDivider-root-219"
+            className="MuiDivider-root-240"
           />
           <li
-            className="MuiListItem-root-192 MuiListItem-default-195 MuiListItem-gutters-199"
+            className="MuiListItem-root-213 MuiListItem-default-216 MuiListItem-gutters-220"
             disabled={false}
           >
             <span
@@ -707,7 +777,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -725,7 +795,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -746,7 +816,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -764,7 +834,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -785,7 +855,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -803,7 +873,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -824,7 +894,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -842,7 +912,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -863,7 +933,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -881,7 +951,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -895,10 +965,10 @@ exports[`(Component) App should render correctly with results 1`] = `
                votes)
             </span>
             <div
-              className="Results-install-186"
+              className="Results-install-207"
             >
               <button
-                className="MuiButtonBase-root-163 MuiButton-root-148 MuiButton-sizeSmall-160"
+                className="MuiButtonBase-root-124 MuiButton-root-173 MuiButton-sizeSmall-185"
                 disabled={false}
                 href={undefined}
                 onBlur={[Function]}
@@ -915,45 +985,45 @@ exports[`(Component) App should render correctly with results 1`] = `
                 type="button"
               >
                 <span
-                  className="MuiButton-label-149"
+                  className="MuiButton-label-174"
                 >
                   Buy
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 Results-icon-187"
+                    className="material-icons MuiIcon-root-126 Results-icon-208"
                   >
                     file_download
                   </span>
                 </span>
                 <span
-                  className="MuiTouchRipple-root-171"
+                  className="MuiTouchRipple-root-132"
                 />
               </button>
             </div>
           </li>
         </div>
         <div
-          className="Results-item-182"
+          className="Results-item-203"
         >
           <li
-            className="MuiListItem-root-192 MuiListItem-default-195 MuiListItem-gutters-199"
+            className="MuiListItem-root-213 MuiListItem-default-216 MuiListItem-gutters-220"
             disabled={false}
           >
             <div
-              className="MuiAvatar-root-202 Results-avatar-183"
+              className="MuiAvatar-root-223 Results-avatar-204"
             />
             <div
-              className="MuiListItemText-root-205"
+              className="MuiListItemText-root-226"
             >
               <h3
-                className="MuiTypography-root-94 MuiTypography-subheading-101 MuiListItemText-primary-208"
+                className="MuiTypography-root-94 MuiTypography-subheading-101 MuiListItemText-primary-229"
               >
                 <span>
                   app-1
                 </span>
               </h3>
               <p
-                className="MuiTypography-root-94 MuiTypography-body1-103 MuiTypography-colorTextSecondary-116 MuiListItemText-secondary-209"
+                className="MuiTypography-root-94 MuiTypography-body1-103 MuiTypography-colorTextSecondary-116 MuiListItemText-secondary-230"
               >
                 <span>
                   app-1
@@ -961,26 +1031,26 @@ exports[`(Component) App should render correctly with results 1`] = `
               </p>
             </div>
             <div
-              className="Results-price-184"
+              className="Results-price-205"
             >
               <div
-                className="MuiChip-root-212"
+                className="MuiChip-root-233"
                 onClick={undefined}
                 onKeyDown={[Function]}
                 role="button"
                 tabIndex={-1}
               >
                 <span
-                  className="MuiChip-label-217"
+                  className="MuiChip-label-238"
                 />
               </div>
             </div>
           </li>
           <hr
-            className="MuiDivider-root-219"
+            className="MuiDivider-root-240"
           />
           <li
-            className="MuiListItem-root-192 MuiListItem-default-195 MuiListItem-gutters-199"
+            className="MuiListItem-root-213 MuiListItem-default-216 MuiListItem-gutters-220"
             disabled={false}
           >
             <span
@@ -1008,7 +1078,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -1026,7 +1096,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -1047,7 +1117,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -1065,7 +1135,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -1086,7 +1156,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -1104,7 +1174,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -1125,7 +1195,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -1143,7 +1213,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -1164,7 +1234,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -1182,7 +1252,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -1196,10 +1266,10 @@ exports[`(Component) App should render correctly with results 1`] = `
                votes)
             </span>
             <div
-              className="Results-install-186"
+              className="Results-install-207"
             >
               <button
-                className="MuiButtonBase-root-163 MuiButton-root-148 MuiButton-sizeSmall-160"
+                className="MuiButtonBase-root-124 MuiButton-root-173 MuiButton-sizeSmall-185"
                 disabled={false}
                 href={undefined}
                 onBlur={[Function]}
@@ -1216,45 +1286,45 @@ exports[`(Component) App should render correctly with results 1`] = `
                 type="button"
               >
                 <span
-                  className="MuiButton-label-149"
+                  className="MuiButton-label-174"
                 >
                   Buy
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 Results-icon-187"
+                    className="material-icons MuiIcon-root-126 Results-icon-208"
                   >
                     file_download
                   </span>
                 </span>
                 <span
-                  className="MuiTouchRipple-root-171"
+                  className="MuiTouchRipple-root-132"
                 />
               </button>
             </div>
           </li>
         </div>
         <div
-          className="Results-item-182"
+          className="Results-item-203"
         >
           <li
-            className="MuiListItem-root-192 MuiListItem-default-195 MuiListItem-gutters-199"
+            className="MuiListItem-root-213 MuiListItem-default-216 MuiListItem-gutters-220"
             disabled={false}
           >
             <div
-              className="MuiAvatar-root-202 Results-avatar-183"
+              className="MuiAvatar-root-223 Results-avatar-204"
             />
             <div
-              className="MuiListItemText-root-205"
+              className="MuiListItemText-root-226"
             >
               <h3
-                className="MuiTypography-root-94 MuiTypography-subheading-101 MuiListItemText-primary-208"
+                className="MuiTypography-root-94 MuiTypography-subheading-101 MuiListItemText-primary-229"
               >
                 <span>
                   app-2
                 </span>
               </h3>
               <p
-                className="MuiTypography-root-94 MuiTypography-body1-103 MuiTypography-colorTextSecondary-116 MuiListItemText-secondary-209"
+                className="MuiTypography-root-94 MuiTypography-body1-103 MuiTypography-colorTextSecondary-116 MuiListItemText-secondary-230"
               >
                 <span>
                   app-2
@@ -1262,26 +1332,26 @@ exports[`(Component) App should render correctly with results 1`] = `
               </p>
             </div>
             <div
-              className="Results-price-184"
+              className="Results-price-205"
             >
               <div
-                className="MuiChip-root-212"
+                className="MuiChip-root-233"
                 onClick={undefined}
                 onKeyDown={[Function]}
                 role="button"
                 tabIndex={-1}
               >
                 <span
-                  className="MuiChip-label-217"
+                  className="MuiChip-label-238"
                 />
               </div>
             </div>
           </li>
           <hr
-            className="MuiDivider-root-219"
+            className="MuiDivider-root-240"
           />
           <li
-            className="MuiListItem-root-192 MuiListItem-default-195 MuiListItem-gutters-199"
+            className="MuiListItem-root-213 MuiListItem-default-216 MuiListItem-gutters-220"
             disabled={false}
           >
             <span
@@ -1309,7 +1379,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -1327,7 +1397,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -1348,7 +1418,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -1366,7 +1436,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -1387,7 +1457,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -1405,7 +1475,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -1426,7 +1496,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -1444,7 +1514,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -1465,7 +1535,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -1483,7 +1553,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -1497,10 +1567,10 @@ exports[`(Component) App should render correctly with results 1`] = `
                votes)
             </span>
             <div
-              className="Results-install-186"
+              className="Results-install-207"
             >
               <button
-                className="MuiButtonBase-root-163 MuiButton-root-148 MuiButton-sizeSmall-160"
+                className="MuiButtonBase-root-124 MuiButton-root-173 MuiButton-sizeSmall-185"
                 disabled={false}
                 href={undefined}
                 onBlur={[Function]}
@@ -1517,45 +1587,45 @@ exports[`(Component) App should render correctly with results 1`] = `
                 type="button"
               >
                 <span
-                  className="MuiButton-label-149"
+                  className="MuiButton-label-174"
                 >
                   Buy
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 Results-icon-187"
+                    className="material-icons MuiIcon-root-126 Results-icon-208"
                   >
                     file_download
                   </span>
                 </span>
                 <span
-                  className="MuiTouchRipple-root-171"
+                  className="MuiTouchRipple-root-132"
                 />
               </button>
             </div>
           </li>
         </div>
         <div
-          className="Results-item-182"
+          className="Results-item-203"
         >
           <li
-            className="MuiListItem-root-192 MuiListItem-default-195 MuiListItem-gutters-199"
+            className="MuiListItem-root-213 MuiListItem-default-216 MuiListItem-gutters-220"
             disabled={false}
           >
             <div
-              className="MuiAvatar-root-202 Results-avatar-183"
+              className="MuiAvatar-root-223 Results-avatar-204"
             />
             <div
-              className="MuiListItemText-root-205"
+              className="MuiListItemText-root-226"
             >
               <h3
-                className="MuiTypography-root-94 MuiTypography-subheading-101 MuiListItemText-primary-208"
+                className="MuiTypography-root-94 MuiTypography-subheading-101 MuiListItemText-primary-229"
               >
                 <span>
                   app-3
                 </span>
               </h3>
               <p
-                className="MuiTypography-root-94 MuiTypography-body1-103 MuiTypography-colorTextSecondary-116 MuiListItemText-secondary-209"
+                className="MuiTypography-root-94 MuiTypography-body1-103 MuiTypography-colorTextSecondary-116 MuiListItemText-secondary-230"
               >
                 <span>
                   app-3
@@ -1563,26 +1633,26 @@ exports[`(Component) App should render correctly with results 1`] = `
               </p>
             </div>
             <div
-              className="Results-price-184"
+              className="Results-price-205"
             >
               <div
-                className="MuiChip-root-212"
+                className="MuiChip-root-233"
                 onClick={undefined}
                 onKeyDown={[Function]}
                 role="button"
                 tabIndex={-1}
               >
                 <span
-                  className="MuiChip-label-217"
+                  className="MuiChip-label-238"
                 />
               </div>
             </div>
           </li>
           <hr
-            className="MuiDivider-root-219"
+            className="MuiDivider-root-240"
           />
           <li
-            className="MuiListItem-root-192 MuiListItem-default-195 MuiListItem-gutters-199"
+            className="MuiListItem-root-213 MuiListItem-default-216 MuiListItem-gutters-220"
             disabled={false}
           >
             <span
@@ -1610,7 +1680,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -1628,7 +1698,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -1649,7 +1719,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -1667,7 +1737,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -1688,7 +1758,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -1706,7 +1776,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -1727,7 +1797,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -1745,7 +1815,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -1766,7 +1836,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -1784,7 +1854,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -1798,10 +1868,10 @@ exports[`(Component) App should render correctly with results 1`] = `
                votes)
             </span>
             <div
-              className="Results-install-186"
+              className="Results-install-207"
             >
               <button
-                className="MuiButtonBase-root-163 MuiButton-root-148 MuiButton-sizeSmall-160"
+                className="MuiButtonBase-root-124 MuiButton-root-173 MuiButton-sizeSmall-185"
                 disabled={false}
                 href={undefined}
                 onBlur={[Function]}
@@ -1818,45 +1888,45 @@ exports[`(Component) App should render correctly with results 1`] = `
                 type="button"
               >
                 <span
-                  className="MuiButton-label-149"
+                  className="MuiButton-label-174"
                 >
                   Buy
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 Results-icon-187"
+                    className="material-icons MuiIcon-root-126 Results-icon-208"
                   >
                     file_download
                   </span>
                 </span>
                 <span
-                  className="MuiTouchRipple-root-171"
+                  className="MuiTouchRipple-root-132"
                 />
               </button>
             </div>
           </li>
         </div>
         <div
-          className="Results-item-182"
+          className="Results-item-203"
         >
           <li
-            className="MuiListItem-root-192 MuiListItem-default-195 MuiListItem-gutters-199"
+            className="MuiListItem-root-213 MuiListItem-default-216 MuiListItem-gutters-220"
             disabled={false}
           >
             <div
-              className="MuiAvatar-root-202 Results-avatar-183"
+              className="MuiAvatar-root-223 Results-avatar-204"
             />
             <div
-              className="MuiListItemText-root-205"
+              className="MuiListItemText-root-226"
             >
               <h3
-                className="MuiTypography-root-94 MuiTypography-subheading-101 MuiListItemText-primary-208"
+                className="MuiTypography-root-94 MuiTypography-subheading-101 MuiListItemText-primary-229"
               >
                 <span>
                   app-4
                 </span>
               </h3>
               <p
-                className="MuiTypography-root-94 MuiTypography-body1-103 MuiTypography-colorTextSecondary-116 MuiListItemText-secondary-209"
+                className="MuiTypography-root-94 MuiTypography-body1-103 MuiTypography-colorTextSecondary-116 MuiListItemText-secondary-230"
               >
                 <span>
                   app-4
@@ -1864,26 +1934,26 @@ exports[`(Component) App should render correctly with results 1`] = `
               </p>
             </div>
             <div
-              className="Results-price-184"
+              className="Results-price-205"
             >
               <div
-                className="MuiChip-root-212"
+                className="MuiChip-root-233"
                 onClick={undefined}
                 onKeyDown={[Function]}
                 role="button"
                 tabIndex={-1}
               >
                 <span
-                  className="MuiChip-label-217"
+                  className="MuiChip-label-238"
                 />
               </div>
             </div>
           </li>
           <hr
-            className="MuiDivider-root-219"
+            className="MuiDivider-root-240"
           />
           <li
-            className="MuiListItem-root-192 MuiListItem-default-195 MuiListItem-gutters-199"
+            className="MuiListItem-root-213 MuiListItem-default-216 MuiListItem-gutters-220"
             disabled={false}
           >
             <span
@@ -1911,7 +1981,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -1929,7 +1999,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -1950,7 +2020,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -1968,7 +2038,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -1989,7 +2059,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -2007,7 +2077,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -2028,7 +2098,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -2046,7 +2116,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -2067,7 +2137,7 @@ exports[`(Component) App should render correctly with results 1`] = `
               >
                 <span
                   aria-hidden="true"
-                  className="material-icons MuiIcon-root-165 MuiIcon-colorDisabled-169"
+                  className="material-icons MuiIcon-root-126 MuiIcon-colorDisabled-130"
                 >
                   star
                 </span>
@@ -2085,7 +2155,7 @@ exports[`(Component) App should render correctly with results 1`] = `
                 >
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 MuiIcon-colorPrimary-166"
+                    className="material-icons MuiIcon-root-126 MuiIcon-colorPrimary-127"
                   >
                     star
                   </span>
@@ -2099,10 +2169,10 @@ exports[`(Component) App should render correctly with results 1`] = `
                votes)
             </span>
             <div
-              className="Results-install-186"
+              className="Results-install-207"
             >
               <button
-                className="MuiButtonBase-root-163 MuiButton-root-148 MuiButton-sizeSmall-160"
+                className="MuiButtonBase-root-124 MuiButton-root-173 MuiButton-sizeSmall-185"
                 disabled={false}
                 href={undefined}
                 onBlur={[Function]}
@@ -2119,18 +2189,18 @@ exports[`(Component) App should render correctly with results 1`] = `
                 type="button"
               >
                 <span
-                  className="MuiButton-label-149"
+                  className="MuiButton-label-174"
                 >
                   Buy
                   <span
                     aria-hidden="true"
-                    className="material-icons MuiIcon-root-165 Results-icon-187"
+                    className="material-icons MuiIcon-root-126 Results-icon-208"
                   >
                     file_download
                   </span>
                 </span>
                 <span
-                  className="MuiTouchRipple-root-171"
+                  className="MuiTouchRipple-root-132"
                 />
               </button>
             </div>

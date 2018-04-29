@@ -3,3 +3,21 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.bp-small {
+  display: block;
+}
+
+.bp-large {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .bp-large {
+    display: block;
+  }
+
+  .bp-small {
+    display: none;
+  }
+}

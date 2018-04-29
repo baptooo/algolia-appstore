@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Grid from 'material-ui/Grid';
 import Drawer from 'material-ui/Drawer';
-import Hidden from'material-ui/Hidden';
 import Typography from 'material-ui/Typography';
 import IconButton from 'material-ui/IconButton';
 import Icon from 'material-ui/Icon';
@@ -72,37 +71,36 @@ class App extends Component {
           </Grid>
           <Grid item sm={8} xs={12}>
             <Grid container alignItems="baseline">
-              <Hidden smUp>
-                <Grid item xs={2}>
-                  <IconButton onClick={this.handleDrawerToggle}>
-                    <Icon>menu</Icon>
-                  </IconButton>
-                </Grid>
-              </Hidden>
+              <Grid item xs={2} className="bp-small">
+                <IconButton onClick={this.handleDrawerToggle}>
+                  <Icon>menu</Icon>
+                </IconButton>
+              </Grid>
               <Grid item sm={12} xs={10}>
                 <Search onChange={setQuery} />
               </Grid>
             </Grid>
           </Grid>
-          <Hidden xsDown>
-            <Grid item xs={12} sm={4}>{facetsContent}</Grid>
-          </Hidden>
-          <Hidden smUp>
-            <Drawer
-              open={this.state.drawerOpened}
-              anchor="left"
-              variant="temporary"
-              onClose={this.handleDrawerToggle}
-              ModalProps={{
-                keepMounted: true
-              }}
-            >{facetsContent}</Drawer>
-          </Hidden>
+          <Grid item xs={12} sm={4} className="bp-large">
+            {facetsContent}
+          </Grid>
           <Grid item xs={12} sm={8}>
             <Controls clear={clearRefinements} content={content}/>
             {content.hits.length ? <Results content={content.hits}/> : null}
           </Grid>
         </Grid>
+
+        {process.env.NODE_ENV !== 'test' ? (
+          <Drawer
+            open={this.state.drawerOpened}
+            anchor="left"
+            variant="temporary"
+            onClose={this.handleDrawerToggle}
+            ModalProps={{
+              keepMounted: true
+            }}
+          >{facetsContent}</Drawer>
+        ) : null}
       </main>
     );
   }
