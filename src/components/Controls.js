@@ -17,10 +17,10 @@ const Controls = ({ content, clear, setIndex, setPage, classes }) => {
   const isRatingAsc = content.index === 'appstore';
   const activeStep = content.page;
   const numPages = content.nbPages;
-  const showNavigation = numPages > 1;
-  const pages = new Array(NAV_LENGTH - 1)
-    .fill(0)
-    .map((zero, idx) => Math.min(numPages - NAV_LENGTH, activeStep) + idx + 1);
+  const navLength = Math.min(numPages, NAV_LENGTH);
+  const showNavigation = navLength && numPages > 1;
+  const pages = new Array(navLength)
+    .fill(0).map((zero, idx) => Math.min(numPages - navLength - 1, activeStep) + idx + 1);
 
   return (
     <section>
@@ -52,9 +52,13 @@ const Controls = ({ content, clear, setIndex, setPage, classes }) => {
             <Icon>navigate_before</Icon>
           </Button>
           {pages.map(page => (
-            <Button className={classes.navButton} size="small" key={`controls-page-${page}`} onClick={() => setPage(page)}>
-              {page + 1}
-            </Button>
+            <Button
+              disabled={activeStep === page}
+              className={classes.navButton}
+              size="small"
+              key={`controls-page-${page}`}
+              onClick={() => setPage(page)}
+            >{page + 1}</Button>
           ))}
           <Button className={classes.navButton} size="small" onClick={() => setPage(activeStep + 1)} disabled={activeStep === numPages - 1}>
             <Icon>navigate_next</Icon>

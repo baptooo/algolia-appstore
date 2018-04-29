@@ -108,8 +108,8 @@ exports[`(Component) Controls should render correctly 1`] = `
       </span>
     </button>
     <button
-      className="MuiButtonBase-root-41 MuiButton-root-26 MuiButton-sizeSmall-38 Controls-navButton-1"
-      disabled={false}
+      className="MuiButtonBase-root-41 MuiButtonBase-disabled-42 MuiButton-root-26 MuiButton-sizeSmall-38 MuiButton-disabled-35 Controls-navButton-1"
+      disabled={true}
       onBlur={[Function]}
       onClick={[Function]}
       onFocus={[Function]}
@@ -121,111 +121,7 @@ exports[`(Component) Controls should render correctly 1`] = `
       onTouchEnd={[Function]}
       onTouchMove={[Function]}
       onTouchStart={[Function]}
-      tabIndex="0"
-      type="button"
-    >
-      <span
-        className="MuiButton-label-27"
-      >
-        -3
-      </span>
-      <span
-        className="MuiTouchRipple-root-49"
-      />
-    </button>
-    <button
-      className="MuiButtonBase-root-41 MuiButton-root-26 MuiButton-sizeSmall-38 Controls-navButton-1"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex="0"
-      type="button"
-    >
-      <span
-        className="MuiButton-label-27"
-      >
-        -2
-      </span>
-      <span
-        className="MuiTouchRipple-root-49"
-      />
-    </button>
-    <button
-      className="MuiButtonBase-root-41 MuiButton-root-26 MuiButton-sizeSmall-38 Controls-navButton-1"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex="0"
-      type="button"
-    >
-      <span
-        className="MuiButton-label-27"
-      >
-        -1
-      </span>
-      <span
-        className="MuiTouchRipple-root-49"
-      />
-    </button>
-    <button
-      className="MuiButtonBase-root-41 MuiButton-root-26 MuiButton-sizeSmall-38 Controls-navButton-1"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex="0"
-      type="button"
-    >
-      <span
-        className="MuiButton-label-27"
-      >
-        0
-      </span>
-      <span
-        className="MuiTouchRipple-root-49"
-      />
-    </button>
-    <button
-      className="MuiButtonBase-root-41 MuiButton-root-26 MuiButton-sizeSmall-38 Controls-navButton-1"
-      disabled={false}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      tabIndex="0"
+      tabIndex="-1"
       type="button"
     >
       <span
@@ -233,9 +129,6 @@ exports[`(Component) Controls should render correctly 1`] = `
       >
         1
       </span>
-      <span
-        className="MuiTouchRipple-root-49"
-      />
     </button>
     <button
       className="MuiButtonBase-root-41 MuiButton-root-26 MuiButton-sizeSmall-38 Controls-navButton-1"

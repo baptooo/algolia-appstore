@@ -12,6 +12,9 @@ const mockNoResults = addAPI({
   hits: [],
   facets: [],
   nbHits: 0,
+  nbPages: 0,
+  hitsPerPage: 0,
+  page: 0
 });
 
 const mockResults = addAPI({
@@ -25,6 +28,9 @@ const mockResults = addAPI({
   })),
   facets: new Array(5).fill({}).map((facet, idx) => ({ name: `facet-${idx}` })),
   nbHits: 4,
+  nbPages: 1,
+  hitsPerPage: 10,
+  page: 0
 });
 
 describe('(Component) App', () => {
