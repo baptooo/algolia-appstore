@@ -1,3 +1,9 @@
+#### 1.0.0 (2018-04-29)
+
+##### New Features
+
+* **Controls:**  add research controls (de0a12bc)
+
 #### 0.8.1 (2018-04-29)
 
 ##### Bug Fixes
