@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import Grid from 'material-ui/Grid';
+import Drawer from 'material-ui/Drawer';
+import Hidden from'material-ui/Hidden';
 import Typography from 'material-ui/Typography';
+import IconButton from 'material-ui/IconButton';
+import Icon from 'material-ui/Icon';
 import { withStyles } from 'material-ui/styles';
 
 import { setQuery, addOrUpdateFacet, removeFacet, clearRefinements } from './api/appstore';
@@ -12,7 +16,8 @@ import Controls from './components/Controls';
 const styles = theme => ({
   main: {
     maxWidth: 1000,
-    margin: '0 auto'
+    margin: '0 auto',
+    padding: 24
   },
   title: {
     margin: '25px 0 10px',
@@ -24,6 +29,14 @@ const styles = theme => ({
 });
 
 class App extends Component {
+  state = {
+    drawerOpened: false
+  };
+
+  handleDrawerToggle = () => {
+    this.setState({ drawerOpened: !this.state.drawerOpened })
+  };
+
   render() {
     const { content, classes } = this.props;
 
@@ -34,6 +47,15 @@ class App extends Component {
       })
     }));
     const refinements = content.getRefinements();
+
+    const facetsContent = (
+      <Facets
+        addOrUpdateFacet={addOrUpdateFacet}
+        removeFacet={removeFacet}
+        facets={facets}
+        refinements={refinements}
+      />
+    );
 
     return (
       <main className={classes.main}>
@@ -48,17 +70,34 @@ class App extends Component {
             </Typography>
             <img src="https://www.algolia.com/static_assets/images/press/downloads/algolia-logo-light.svg" width="120" alt=""/>
           </Grid>
-          <Grid item sm={8}>
-            <Search onChange={setQuery} />
+          <Grid item sm={8} xs={12}>
+            <Grid container alignItems="baseline">
+              <Hidden smUp>
+                <Grid item xs={2}>
+                  <IconButton onClick={this.handleDrawerToggle}>
+                    <Icon>menu</Icon>
+                  </IconButton>
+                </Grid>
+              </Hidden>
+              <Grid item sm={12} xs={10}>
+                <Search onChange={setQuery} />
+              </Grid>
+            </Grid>
           </Grid>
-          <Grid item xs={12} sm={4}>
-            <Facets
-              addOrUpdateFacet={addOrUpdateFacet}
-              removeFacet={removeFacet}
-              facets={facets}
-              refinements={refinements}
-            />
-          </Grid>
+          <Hidden xsDown>
+            <Grid item xs={12} sm={4}>{facetsContent}</Grid>
+          </Hidden>
+          <Hidden smUp>
+            <Drawer
+              open={this.state.drawerOpened}
+              anchor="left"
+              variant="temporary"
+              onClose={this.handleDrawerToggle}
+              ModalProps={{
+                keepMounted: true
+              }}
+            >{facetsContent}</Drawer>
+          </Hidden>
           <Grid item xs={12} sm={8}>
             <Controls clear={clearRefinements} content={content}/>
             {content.hits.length ? <Results content={content.hits}/> : null}

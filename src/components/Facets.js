@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
 import Typography from 'material-ui/Typography';
@@ -18,6 +18,11 @@ const Facet = (props) => {
 };
 
 const styles = theme => ({
+  facets: {
+    width: '100%',
+    minWidth: 280,
+    padding: 24
+  },
   facet: {
     margin: '50px 0'
   },
@@ -32,7 +37,7 @@ const styles = theme => ({
 });
 
 const Facets = ({ facets, refinements, addOrUpdateFacet, removeFacet, classes }) => (
-  <Fragment>
+  <div className={classes.facets}>
     {facets.map(({ name, values }) => {
       const hasRefinement = refinements.find(refinement => refinement.attributeName === name);
       return (
@@ -56,7 +61,7 @@ const Facets = ({ facets, refinements, addOrUpdateFacet, removeFacet, classes })
         </div>
       );
     })}
-  </Fragment>
+  </div>
 );
 
 Facets.propTypes = {
