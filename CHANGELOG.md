@@ -1,3 +1,9 @@
+#### 1.2.0 (2018-04-30)
+
+##### Bug Fixes
+
+* **Search:**  debounce search (b4cec6fd)
+
 #### 1.1.0 (2018-04-29)
 
 ##### New Features
