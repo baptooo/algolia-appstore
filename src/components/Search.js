@@ -17,20 +17,37 @@ const styles = theme => ({
   },
 });
 
-const Search = ({ onChange, classes, query }) => (
-  <div style={{ textAlign: 'center' }}>
-    <TextField
-      value={query}
-      className={classes.textField}
-      name="term"
-      label="Search for an app by name"
-      onChange={(evt) => onChange(evt.target.value)}
-      inputProps={{
-        autoComplete: 'off'
-      }}
-    />
-  </div>
-);
+const debounce = (fn, delay, timeout) => (...args) => {
+  if (timeout) clearTimeout(timeout);
+  timeout = setTimeout(fn, delay, ...args);
+};
+
+class Search extends React.Component {
+  constructor(props) {
+    super(props);
+
+    // Debounce search field for general performance
+    this.onChange = debounce(this.props.onChange.bind(this), 300);
+  }
+  render() {
+    const { classes, query } = this.props;
+
+    return (
+      <div style={{ textAlign: 'center' }}>
+        <TextField
+          defaultValue={query}
+          className={classes.textField}
+          name="term"
+          label="Search for an app by name"
+          onChange={(evt) => this.onChange(evt.target.value)}
+          inputProps={{
+            autoComplete: 'off'
+          }}
+        />
+      </div>
+    )
+  }
+}
 
 Search.propTypes = {
   onChange: PropTypes.func.isRequired
